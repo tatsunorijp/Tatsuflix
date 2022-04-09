@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08CB07862801C01F005D054A /* TatsuflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07852801C01F005D054A /* TatsuflixApp.swift */; };
+		08CB07882801C01F005D054A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07872801C01F005D054A /* ContentView.swift */; };
+		08CB078A2801C023005D054A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CB07892801C023005D054A /* Assets.xcassets */; };
+		08CB078D2801C023005D054A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CB078C2801C023005D054A /* Preview Assets.xcassets */; };
+		08CB07972801C024005D054A /* TatsuflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07962801C024005D054A /* TatsuflixTests.swift */; };
+		08CB07A12801C024005D054A /* TatsuflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07A02801C024005D054A /* TatsuflixUITests.swift */; };
+		08CB07A32801C024005D054A /* TatsuflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07A22801C024005D054A /* TatsuflixUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08CB07932801C024005D054A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08CB077A2801C01F005D054A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08CB07812801C01F005D054A;
+			remoteInfo = Tatsuflix;
+		};
+		08CB079D2801C024005D054A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08CB077A2801C01F005D054A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08CB07812801C01F005D054A;
+			remoteInfo = Tatsuflix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08CB07822801C01F005D054A /* Tatsuflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tatsuflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08CB07852801C01F005D054A /* TatsuflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixApp.swift; sourceTree = "<group>"; };
+		08CB07872801C01F005D054A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08CB07892801C023005D054A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08CB078C2801C023005D054A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08CB07922801C024005D054A /* TatsuflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatsuflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08CB07962801C024005D054A /* TatsuflixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixTests.swift; sourceTree = "<group>"; };
+		08CB079C2801C024005D054A /* TatsuflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatsuflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08CB07A02801C024005D054A /* TatsuflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixUITests.swift; sourceTree = "<group>"; };
+		08CB07A22801C024005D054A /* TatsuflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08CB077F2801C01F005D054A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CB078F2801C024005D054A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CB07992801C024005D054A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08CB07792801C01F005D054A = {
+			isa = PBXGroup;
+			children = (
+				08CB07842801C01F005D054A /* Tatsuflix */,
+				08CB07952801C024005D054A /* TatsuflixTests */,
+				08CB079F2801C024005D054A /* TatsuflixUITests */,
+				08CB07832801C01F005D054A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08CB07832801C01F005D054A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08CB07822801C01F005D054A /* Tatsuflix.app */,
+				08CB07922801C024005D054A /* TatsuflixTests.xctest */,
+				08CB079C2801C024005D054A /* TatsuflixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08CB07842801C01F005D054A /* Tatsuflix */ = {
+			isa = PBXGroup;
+			children = (
+				08CB07852801C01F005D054A /* TatsuflixApp.swift */,
+				08CB07872801C01F005D054A /* ContentView.swift */,
+				08CB07892801C023005D054A /* Assets.xcassets */,
+				08CB078B2801C023005D054A /* Preview Content */,
+			);
+			path = Tatsuflix;
+			sourceTree = "<group>";
+		};
+		08CB078B2801C023005D054A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				08CB078C2801C023005D054A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08CB07952801C024005D054A /* TatsuflixTests */ = {
+			isa = PBXGroup;
+			children = (
+				08CB07962801C024005D054A /* TatsuflixTests.swift */,
+			);
+			path = TatsuflixTests;
+			sourceTree = "<group>";
+		};
+		08CB079F2801C024005D054A /* TatsuflixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08CB07A02801C024005D054A /* TatsuflixUITests.swift */,
+				08CB07A22801C024005D054A /* TatsuflixUITestsLaunchTests.swift */,
+			);
+			path = TatsuflixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08CB07812801C01F005D054A /* Tatsuflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08CB07A62801C024005D054A /* Build configuration list for PBXNativeTarget "Tatsuflix" */;
+			buildPhases = (
+				08CB077E2801C01F005D054A /* Sources */,
+				08CB077F2801C01F005D054A /* Frameworks */,
+				08CB07802801C01F005D054A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tatsuflix;
+			productName = Tatsuflix;
+			productReference = 08CB07822801C01F005D054A /* Tatsuflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08CB07912801C024005D054A /* TatsuflixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08CB07A92801C024005D054A /* Build configuration list for PBXNativeTarget "TatsuflixTests" */;
+			buildPhases = (
+				08CB078E2801C024005D054A /* Sources */,
+				08CB078F2801C024005D054A /* Frameworks */,
+				08CB07902801C024005D054A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08CB07942801C024005D054A /* PBXTargetDependency */,
+			);
+			name = TatsuflixTests;
+			productName = TatsuflixTests;
+			productReference = 08CB07922801C024005D054A /* TatsuflixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08CB079B2801C024005D054A /* TatsuflixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08CB07AC2801C024005D054A /* Build configuration list for PBXNativeTarget "TatsuflixUITests" */;
+			buildPhases = (
+				08CB07982801C024005D054A /* Sources */,
+				08CB07992801C024005D054A /* Frameworks */,
+				08CB079A2801C024005D054A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08CB079E2801C024005D054A /* PBXTargetDependency */,
+			);
+			name = TatsuflixUITests;
+			productName = TatsuflixUITests;
+			productReference = 08CB079C2801C024005D054A /* TatsuflixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08CB077A2801C01F005D054A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					08CB07812801C01F005D054A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					08CB07912801C024005D054A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 08CB07812801C01F005D054A;
+					};
+					08CB079B2801C024005D054A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 08CB07812801C01F005D054A;
+					};
+				};
+			};
+			buildConfigurationList = 08CB077D2801C01F005D054A /* Build configuration list for PBXProject "Tatsuflix" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08CB07792801C01F005D054A;
+			productRefGroup = 08CB07832801C01F005D054A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08CB07812801C01F005D054A /* Tatsuflix */,
+				08CB07912801C024005D054A /* TatsuflixTests */,
+				08CB079B2801C024005D054A /* TatsuflixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08CB07802801C01F005D054A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CB078D2801C023005D054A /* Preview Assets.xcassets in Resources */,
+				08CB078A2801C023005D054A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CB07902801C024005D054A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CB079A2801C024005D054A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08CB077E2801C01F005D054A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CB07882801C01F005D054A /* ContentView.swift in Sources */,
+				08CB07862801C01F005D054A /* TatsuflixApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CB078E2801C024005D054A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CB07972801C024005D054A /* TatsuflixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08CB07982801C024005D054A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08CB07A12801C024005D054A /* TatsuflixUITests.swift in Sources */,
+				08CB07A32801C024005D054A /* TatsuflixUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08CB07942801C024005D054A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08CB07812801C01F005D054A /* Tatsuflix */;
+			targetProxy = 08CB07932801C024005D054A /* PBXContainerItemProxy */;
+		};
+		08CB079E2801C024005D054A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08CB07812801C01F005D054A /* Tatsuflix */;
+			targetProxy = 08CB079D2801C024005D054A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08CB07A42801C024005D054A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08CB07A52801C024005D054A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08CB07A72801C024005D054A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tatsuflix/Preview Content\"";
+				DEVELOPMENT_TEAM = DHFMA3M4H5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatsunori.wellington.com.Tatsuflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08CB07A82801C024005D054A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tatsuflix/Preview Content\"";
+				DEVELOPMENT_TEAM = DHFMA3M4H5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatsunori.wellington.com.Tatsuflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08CB07AA2801C024005D054A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DHFMA3M4H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatsunori.wellington.com.TatsuflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tatsuflix.app/Tatsuflix";
+			};
+			name = Debug;
+		};
+		08CB07AB2801C024005D054A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DHFMA3M4H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatsunori.wellington.com.TatsuflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tatsuflix.app/Tatsuflix";
+			};
+			name = Release;
+		};
+		08CB07AD2801C024005D054A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DHFMA3M4H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatsunori.wellington.com.TatsuflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tatsuflix;
+			};
+			name = Debug;
+		};
+		08CB07AE2801C024005D054A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DHFMA3M4H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatsunori.wellington.com.TatsuflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tatsuflix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08CB077D2801C01F005D054A /* Build configuration list for PBXProject "Tatsuflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CB07A42801C024005D054A /* Debug */,
+				08CB07A52801C024005D054A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08CB07A62801C024005D054A /* Build configuration list for PBXNativeTarget "Tatsuflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CB07A72801C024005D054A /* Debug */,
+				08CB07A82801C024005D054A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08CB07A92801C024005D054A /* Build configuration list for PBXNativeTarget "TatsuflixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CB07AA2801C024005D054A /* Debug */,
+				08CB07AB2801C024005D054A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08CB07AC2801C024005D054A /* Build configuration list for PBXNativeTarget "TatsuflixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08CB07AD2801C024005D054A /* Debug */,
+				08CB07AE2801C024005D054A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08CB077A2801C01F005D054A /* Project object */;
+}
