@@ -1,0 +1,11 @@
+## Build generated
+build/
+DerivedData/
+.derivedData/
+.deploy
+*.xcarchive
+.DS_Store
+
+Pods/
+
+Tatsuflix/Generated/
