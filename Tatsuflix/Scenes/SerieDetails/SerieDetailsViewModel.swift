@@ -16,4 +16,12 @@ final class SerieDetailsViewModel: ObservableObject {
         self.service = service
         self.serie = serie
     }
+    
+    func addFavoriteSerie(serieId: Int) {
+        UserDefaultsHelper.addFavoriteSerie(serieId: serieId)
+    }
+    
+    func removeFavoriteSerie(serieId: Int) {
+        UserDefaultsHelper.deleteFavoriteSerie(serieId: serieId)
+    }
 }

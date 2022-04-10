@@ -8,14 +8,6 @@
 import XCTest
 @testable import Tatsuflix
 
-final class EpisodesListServiceSpy: EpisodesListServicing {
-    var expectedResult: Result<[EpisodeResponse], ApiError>!
-    
-    func fetchEpisodes(of serie: Int, completion: @escaping (Result<[EpisodeResponse], ApiError>) -> Void) {
-        completion(expectedResult)
-    }
-}
-
 final class EpisodesListViewModelTests: XCTestCase {
     private let serviceSpy = EpisodesListServiceSpy()
     private lazy var sut: EpisodesListViewModel = {

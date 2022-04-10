@@ -13,7 +13,7 @@ struct SerieResponse: Decodable, Identifiable, Equatable {
     let name: String
     let status: String
     let genres: [String]
-    let summary: String
+    let summary: String?
     let image: SerieImageResponse?
     let schedule: SerieScheduleResponse
     let rating: SerieRatingResponse
@@ -55,6 +55,6 @@ extension SerieResponse {
             summary: "1",
             image: nil,
             schedule: SerieScheduleResponse(time: "1", days: []),
-            rating: SerieRatingResponse(average: nil)),
+            rating: SerieRatingResponse(average: nil))
     ]
 }

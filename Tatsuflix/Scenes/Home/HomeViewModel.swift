@@ -27,7 +27,9 @@ final class HomeViewModel: ObservableObject {
                 print(self.series.count)
                 self.currentPage += 1
             case .failure(let error):
-                self.seriesIsFull = true
+                if error == .notFound {
+                    self.seriesIsFull = true
+                }
                 print(error)
             }
         }

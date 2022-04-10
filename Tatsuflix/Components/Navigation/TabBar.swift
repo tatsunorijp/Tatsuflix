@@ -66,7 +66,8 @@ struct TabBar: View {
     var backGround: some View {
         HStack {
             if selectedTab == .explore { Spacer() }
-            if selectedTab == .configs {
+            if selectedTab == .configs { Spacer() }
+            if selectedTab == .favorite {
                 Spacer()
                 Spacer()
             }
@@ -74,7 +75,9 @@ struct TabBar: View {
             if selectedTab == .home { Spacer() }
             if selectedTab == .explore {
                 Spacer()
+                Spacer()
             }
+            if selectedTab == .favorite { Spacer() }
         }
         .padding(.horizontal, 8)
 
@@ -83,7 +86,8 @@ struct TabBar: View {
     var overlay: some View {
         HStack {
             if selectedTab == .explore { Spacer() }
-            if selectedTab == .configs {
+            if selectedTab == .configs { Spacer() }
+            if selectedTab == .favorite {
                 Spacer()
                 Spacer()
             }
@@ -96,7 +100,9 @@ struct TabBar: View {
             if selectedTab == .home { Spacer() }
             if selectedTab == .explore {
                 Spacer()
+                Spacer()
             }
+            if selectedTab == .favorite { Spacer() }
         }
         .padding(.horizontal, 8)
     }

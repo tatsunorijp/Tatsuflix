@@ -18,11 +18,13 @@ struct TabItem: Identifiable {
 let tabItems = [
     TabItem(text: "Home", icon: "house", tab: .home, color: .teal),
     TabItem(text: "Search", icon: "magnifyingglass", tab: .explore, color: .blue),
-    TabItem(text: "Settings", icon: "gearshape", tab: .configs, color: .red),
+    TabItem(text: "Favorite", icon: "star", tab: .favorite, color: .yellow),
+    TabItem(text: "Settings", icon: "gearshape", tab: .configs, color: .red)
 ]
 
 enum Tab: String {
     case home
     case explore
+    case favorite
     case configs
 }

@@ -26,5 +26,12 @@ final class EpisodesListService: EpisodesListServicing {
             }
         }
     }
+}
+
+final class EpisodesListServiceSpy: EpisodesListServicing {
+    var expectedResult: Result<[EpisodeResponse], ApiError>!
     
+    func fetchEpisodes(of serie: Int, completion: @escaping (Result<[EpisodeResponse], ApiError>) -> Void) {
+        completion(expectedResult)
+    }
 }

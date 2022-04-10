@@ -27,3 +27,10 @@ final class HomeService: HomeServicing {
         }
     }
 }
+
+final class HomeServiceSpy: HomeServicing {
+    var expectedResult: Result<[SerieResponse], ApiError>!
+    func fetchSeries(inPage: Int, completion: @escaping (Result<[SerieResponse], ApiError>) -> Void) {
+        completion(expectedResult)
+    }
+}

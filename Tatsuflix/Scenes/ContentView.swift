@@ -17,7 +17,9 @@ struct ContentView: View {
                 case .home:
                     HomeFactory().build()
                 case .explore:
-                    Text("")
+                    SearchSeriesFactory().build()
+                case .favorite:
+                    FavoritedSeriesFactory().build()
                 case .configs:
                     Text("")
                 }

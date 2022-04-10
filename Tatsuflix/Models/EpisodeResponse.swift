@@ -39,6 +39,6 @@ extension EpisodeResponse {
             season: 2,
             summary: nil,
             image: nil
-        ),
+        )
     ]
 }

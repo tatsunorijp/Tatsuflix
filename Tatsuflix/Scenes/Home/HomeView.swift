@@ -32,7 +32,7 @@ struct HomeView: View {
                 }
             }
             .onAppear {
-                viewModel.getSeries()
+//                viewModel.getSeries()
             }
             .listStyle(.plain)
             .preferredColorScheme(.dark)
@@ -42,8 +42,16 @@ struct HomeView: View {
     }
 }
 
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        HomeView()
-//    }
-//}
+struct Home_Previews: PreviewProvider {
+    private static var viewModel: HomeViewModel = {
+        let service = HomeServiceSpy()
+        service.expectedResult = .success(SerieResponse.mock)
+        
+        let viewModel = HomeViewModel(service: service)
+        return viewModel
+    }()
+    
+    static var previews: some View {
+        HomeView(viewModel: viewModel)
+    }
+}

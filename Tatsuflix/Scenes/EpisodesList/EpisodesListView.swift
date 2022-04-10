@@ -33,8 +33,19 @@ struct EpisodesListView: View {
     }
 }
 
-//struct EpisodesList_Previews: PreviewProvider {
-//    static var previews: some View {
-//        EpisodesListView(isPresenting: .constant(true), viewModel: EpisodesListViewModel(service: <#T##EpisodesListServicing#>, episodeId: <#T##Int#>))
-//    }
-//}
+struct EpisodesList_Previews: PreviewProvider {
+    private static var viewModel: EpisodesListViewModel = {
+        let service = EpisodesListServiceSpy()
+        service.expectedResult = .success(EpisodeResponse.mock)
+        
+        let viewModel = EpisodesListViewModel(service: service, episodeId: 0)
+        return viewModel
+    }()
+    
+    static var previews: some View {
+        EpisodesListView(
+            isPresenting: .constant(true),
+            viewModel: viewModel
+        )
+    }
+}

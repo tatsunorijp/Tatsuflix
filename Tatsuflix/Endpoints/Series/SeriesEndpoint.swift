@@ -8,6 +8,8 @@
 import Foundation
 
 struct SeriesEndpoint: DataRequest {
+    typealias Response = [SerieResponse]
+    
     let page: Int
     
     var url: String {
@@ -24,16 +26,5 @@ struct SeriesEndpoint: DataRequest {
     
     var method: HTTPMethod {
         .get
-    }
-    
-    func decode(_ data: Data) throws -> [SerieResponse] {
-        let decoder = JSONDecoder()
-        decoder.keyDecodingStrategy = .convertFromSnakeCase
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-mm-dd"
-        decoder.dateDecodingStrategy = .formatted(dateFormatter)
-        
-        let response = try decoder.decode([SerieResponse].self, from: data)
-        return response
     }
 }

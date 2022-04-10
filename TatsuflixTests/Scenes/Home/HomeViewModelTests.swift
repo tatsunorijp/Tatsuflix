@@ -8,13 +8,6 @@
 import XCTest
 @testable import Tatsuflix
 
-final class HomeServiceSpy: HomeServicing {
-    var expectedResult: Result<[SerieResponse], ApiError>!
-    func fetchSeries(inPage: Int, completion: @escaping (Result<[SerieResponse], ApiError>) -> Void) {
-        completion(expectedResult)
-    }
-}
-
 final class HomeViewModelTests: XCTestCase {
     private let serviceSpy = HomeServiceSpy()
     private lazy var sut: HomeViewModel = {
@@ -46,5 +39,15 @@ final class HomeViewModelTests: XCTestCase {
                                         schedule: SerieScheduleResponse(time: "1", days: []),
                                         rating: SerieRatingResponse(average: nil))
         ])
+    }
+    
+    func testGetSeries_WhenNotFoundError_SeriesIsFullShouldBeTrue() {
+        serviceSpy.expectedResult = .failure(.notFound)
+        
+        XCTAssertFalse(sut.seriesIsFull)
+        
+        sut.getSeries()
+        
+        XCTAssertTrue(sut.seriesIsFull)
     }
 }

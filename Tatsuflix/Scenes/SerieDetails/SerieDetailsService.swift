@@ -27,3 +27,11 @@ final class SerieDetailsService: SerieDetailsServicing {
         }
     }
 }
+
+// for testing purpose
+final class SerieDetailsServiceSpy: SerieDetailsServicing {
+    var expectedResult: Result<[EpisodeResponse], ApiError>!
+    func fetchEpisodes(of serie: Int, completion: @escaping (Result<[EpisodeResponse], ApiError>) -> Void) {
+        completion(expectedResult)
+    }
+}

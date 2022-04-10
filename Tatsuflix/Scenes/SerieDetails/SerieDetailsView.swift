@@ -19,7 +19,7 @@ struct SerieDetailsView: View {
             ScrollView {
                 imageHeader
                     .overlay(serieDetails)
-                    .padding(.bottom, 250)
+                    .padding(.bottom, 300)
             }
         }
         .navigationTitle(Text(L10n.SerieDetails.title))
@@ -51,6 +51,9 @@ struct SerieDetailsView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                 Button {
                     isFavorited.toggle()
+                    isFavorited
+                        ? viewModel.addFavoriteSerie(serieId: viewModel.serie.id)
+                        : viewModel.removeFavoriteSerie(serieId: viewModel.serie.id)
                 } label: {
                     Group {
                         isFavorited
@@ -61,7 +64,7 @@ struct SerieDetailsView: View {
                 }
             }
             
-            Text(viewModel.serie.summary.removeHTMLTags())
+            Text(viewModel.serie.summary?.removeHTMLTags() ?? "")
                 .font(.footnote)
             
             Divider()
