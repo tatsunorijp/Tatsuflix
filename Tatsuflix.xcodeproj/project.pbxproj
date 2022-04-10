@@ -7,13 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0824BCA02801C1300035DDBA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0824BC9F2801C1300035DDBA /* Colors.xcassets */; };
+		0824BCA22801C1430035DDBA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0824BCA12801C1430035DDBA /* Localizable.strings */; };
+		0824BCA52801C2030035DDBA /* Localizable.strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824BCA32801C2030035DDBA /* Localizable.strings.swift */; };
+		0824BCA62801C2030035DDBA /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824BCA42801C2030035DDBA /* XCAssets+Generated.swift */; };
+		0824BCAC2801C3620035DDBA /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824BCAB2801C3620035DDBA /* HTTPMethod.swift */; };
+		0824BCAE2801C3790035DDBA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824BCAD2801C3790035DDBA /* Service.swift */; };
+		0824BCB02801C3970035DDBA /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824BCAF2801C3970035DDBA /* ApiError.swift */; };
+		0824BCB22801C3C20035DDBA /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824BCB12801C3C20035DDBA /* DataRequest.swift */; };
+		0824BCB42801C3DE0035DDBA /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824BCB32801C3DE0035DDBA /* BaseURL.swift */; };
+		0824BCB82801C4B10035DDBA /* SeriesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824BCB72801C4B10035DDBA /* SeriesEndpoint.swift */; };
+		0824BCBB2801C4F50035DDBA /* SeriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824BCBA2801C4F50035DDBA /* SeriesResponse.swift */; };
+		0824BCBE2801C65C0035DDBA /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0824BCBD2801C65C0035DDBA /* HomeService.swift */; };
+		0878DCF876347971C8A07599 /* Pods_Tatsuflix_TatsuflixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC519F042969CB198F78DF1 /* Pods_Tatsuflix_TatsuflixUITests.framework */; };
+		088AE8212801DEB0004C5343 /* SerieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE8202801DEB0004C5343 /* SerieView.swift */; };
+		088AE8242801E277004C5343 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE8232801E277004C5343 /* Styles.swift */; };
+		088AE82B2801E48F004C5343 /* ScrollPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE82A2801E48F004C5343 /* ScrollPreferenceKey.swift */; };
+		088AE82E2801EC07004C5343 /* SerieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE82D2801EC07004C5343 /* SerieDetailsView.swift */; };
+		088AE8302801FD14004C5343 /* SerieDetailsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE82F2801FD14004C5343 /* SerieDetailsFactory.swift */; };
+		088AE8322801FD2D004C5343 /* SerieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE8312801FD2D004C5343 /* SerieDetailsViewModel.swift */; };
+		088AE8342801FD3C004C5343 /* SerieDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE8332801FD3C004C5343 /* SerieDetailsService.swift */; };
+		088AE83628020C0A004C5343 /* HTMLStringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE83528020C0A004C5343 /* HTMLStringView.swift */; };
+		088AE83828021241004C5343 /* EpisodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE83728021241004C5343 /* EpisodeResponse.swift */; };
+		088AE83A28021652004C5343 /* EpisodesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE83928021652004C5343 /* EpisodesEndpoint.swift */; };
+		088AE83C280219A6004C5343 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE83B280219A6004C5343 /* EpisodeView.swift */; };
+		088AE83F28024F98004C5343 /* EpisodesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE83E28024F98004C5343 /* EpisodesListView.swift */; };
+		088AE841280251D4004C5343 /* EpisodesListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE840280251D4004C5343 /* EpisodesListFactory.swift */; };
+		088AE843280251E0004C5343 /* EpisodesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE842280251E0004C5343 /* EpisodesListViewModel.swift */; };
+		088AE845280251E9004C5343 /* EpisodesListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE844280251E9004C5343 /* EpisodesListService.swift */; };
+		088AE84B28027753004C5343 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE84A28027753004C5343 /* Utils.swift */; };
+		088AE84D280277EF004C5343 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE84C280277EF004C5343 /* String+Extensions.swift */; };
+		088AE850280293C1004C5343 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE84F280293C1004C5343 /* TabBar.swift */; };
+		088AE8532802940A004C5343 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE8522802940A004C5343 /* Tab.swift */; };
+		088AE855280294D5004C5343 /* TabPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE854280294D5004C5343 /* TabPreferenceKey.swift */; };
+		088AE85728029544004C5343 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE85628029544004C5343 /* ContentView.swift */; };
+		088AE85B280297A4004C5343 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE85A280297A4004C5343 /* HomeViewModelTests.swift */; };
+		088AE85E28029BA8004C5343 /* EpisodesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088AE85D28029BA8004C5343 /* EpisodesListViewModelTests.swift */; };
 		08CB07862801C01F005D054A /* TatsuflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07852801C01F005D054A /* TatsuflixApp.swift */; };
-		08CB07882801C01F005D054A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07872801C01F005D054A /* ContentView.swift */; };
+		08CB07882801C01F005D054A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07872801C01F005D054A /* HomeView.swift */; };
 		08CB078A2801C023005D054A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CB07892801C023005D054A /* Assets.xcassets */; };
 		08CB078D2801C023005D054A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CB078C2801C023005D054A /* Preview Assets.xcassets */; };
 		08CB07972801C024005D054A /* TatsuflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07962801C024005D054A /* TatsuflixTests.swift */; };
 		08CB07A12801C024005D054A /* TatsuflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07A02801C024005D054A /* TatsuflixUITests.swift */; };
 		08CB07A32801C024005D054A /* TatsuflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07A22801C024005D054A /* TatsuflixUITestsLaunchTests.swift */; };
+		08E77C5A2801CE9E004E1F29 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E77C592801CE9E004E1F29 /* HomeViewModel.swift */; };
+		08E77C5C2801CEC0004E1F29 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E77C5B2801CEC0004E1F29 /* HomeFactory.swift */; };
+		994C981B312ED204955F77D3 /* Pods_Tatsuflix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364D5BEB914B190DCF9759A6 /* Pods_Tatsuflix.framework */; };
+		F831799188BAAD69B70AE79D /* Pods_TatsuflixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7162961615DB605778E6AC93 /* Pods_TatsuflixTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +74,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0824BC9F2801C1300035DDBA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		0824BCA12801C1430035DDBA /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		0824BCA32801C2030035DDBA /* Localizable.strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.strings.swift; sourceTree = "<group>"; };
+		0824BCA42801C2030035DDBA /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
+		0824BCAB2801C3620035DDBA /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		0824BCAD2801C3790035DDBA /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		0824BCAF2801C3970035DDBA /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		0824BCB12801C3C20035DDBA /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		0824BCB32801C3DE0035DDBA /* BaseURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		0824BCB72801C4B10035DDBA /* SeriesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesEndpoint.swift; sourceTree = "<group>"; };
+		0824BCBA2801C4F50035DDBA /* SeriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesResponse.swift; sourceTree = "<group>"; };
+		0824BCBD2801C65C0035DDBA /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		088AE8202801DEB0004C5343 /* SerieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieView.swift; sourceTree = "<group>"; };
+		088AE8232801E277004C5343 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		088AE82A2801E48F004C5343 /* ScrollPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPreferenceKey.swift; sourceTree = "<group>"; };
+		088AE82D2801EC07004C5343 /* SerieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieDetailsView.swift; sourceTree = "<group>"; };
+		088AE82F2801FD14004C5343 /* SerieDetailsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieDetailsFactory.swift; sourceTree = "<group>"; };
+		088AE8312801FD2D004C5343 /* SerieDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieDetailsViewModel.swift; sourceTree = "<group>"; };
+		088AE8332801FD3C004C5343 /* SerieDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerieDetailsService.swift; sourceTree = "<group>"; };
+		088AE83528020C0A004C5343 /* HTMLStringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLStringView.swift; sourceTree = "<group>"; };
+		088AE83728021241004C5343 /* EpisodeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeResponse.swift; sourceTree = "<group>"; };
+		088AE83928021652004C5343 /* EpisodesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesEndpoint.swift; sourceTree = "<group>"; };
+		088AE83B280219A6004C5343 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
+		088AE83E28024F98004C5343 /* EpisodesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesListView.swift; sourceTree = "<group>"; };
+		088AE840280251D4004C5343 /* EpisodesListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesListFactory.swift; sourceTree = "<group>"; };
+		088AE842280251E0004C5343 /* EpisodesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesListViewModel.swift; sourceTree = "<group>"; };
+		088AE844280251E9004C5343 /* EpisodesListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesListService.swift; sourceTree = "<group>"; };
+		088AE84A28027753004C5343 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		088AE84C280277EF004C5343 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		088AE84F280293C1004C5343 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		088AE8522802940A004C5343 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		088AE854280294D5004C5343 /* TabPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPreferenceKey.swift; sourceTree = "<group>"; };
+		088AE85628029544004C5343 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		088AE85A280297A4004C5343 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		088AE85D28029BA8004C5343 /* EpisodesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesListViewModelTests.swift; sourceTree = "<group>"; };
 		08CB07822801C01F005D054A /* Tatsuflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tatsuflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CB07852801C01F005D054A /* TatsuflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixApp.swift; sourceTree = "<group>"; };
-		08CB07872801C01F005D054A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08CB07872801C01F005D054A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		08CB07892801C023005D054A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08CB078C2801C023005D054A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08CB07922801C024005D054A /* TatsuflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatsuflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +119,17 @@
 		08CB079C2801C024005D054A /* TatsuflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatsuflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CB07A02801C024005D054A /* TatsuflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixUITests.swift; sourceTree = "<group>"; };
 		08CB07A22801C024005D054A /* TatsuflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		08E77C592801CE9E004E1F29 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		08E77C5B2801CEC0004E1F29 /* HomeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFactory.swift; sourceTree = "<group>"; };
+		1A88DA6B50D40A18900F16D6 /* Pods-Tatsuflix-TatsuflixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tatsuflix-TatsuflixUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tatsuflix-TatsuflixUITests/Pods-Tatsuflix-TatsuflixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DC43CDE188AB5F0BBE42488 /* Pods-Tatsuflix-TatsuflixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tatsuflix-TatsuflixUITests.release.xcconfig"; path = "Target Support Files/Pods-Tatsuflix-TatsuflixUITests/Pods-Tatsuflix-TatsuflixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		364D5BEB914B190DCF9759A6 /* Pods_Tatsuflix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tatsuflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C88EBAB9A227C92ECCD768 /* Pods-TatsuflixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TatsuflixTests.debug.xcconfig"; path = "Target Support Files/Pods-TatsuflixTests/Pods-TatsuflixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5583C59DA262C27A57423778 /* Pods-Tatsuflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tatsuflix.release.xcconfig"; path = "Target Support Files/Pods-Tatsuflix/Pods-Tatsuflix.release.xcconfig"; sourceTree = "<group>"; };
+		6CDFE8BD76A2046CE525536E /* Pods-TatsuflixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TatsuflixTests.release.xcconfig"; path = "Target Support Files/Pods-TatsuflixTests/Pods-TatsuflixTests.release.xcconfig"; sourceTree = "<group>"; };
+		7162961615DB605778E6AC93 /* Pods_TatsuflixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TatsuflixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E592171A8A0A5BE27EED45D2 /* Pods-Tatsuflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tatsuflix.debug.xcconfig"; path = "Target Support Files/Pods-Tatsuflix/Pods-Tatsuflix.debug.xcconfig"; sourceTree = "<group>"; };
+		EEC519F042969CB198F78DF1 /* Pods_Tatsuflix_TatsuflixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tatsuflix_TatsuflixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994C981B312ED204955F77D3 /* Pods_Tatsuflix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F831799188BAAD69B70AE79D /* Pods_TatsuflixTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +153,194 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0878DCF876347971C8A07599 /* Pods_Tatsuflix_TatsuflixUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0824BC9D2801C0EF0035DDBA /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				0824BCA32801C2030035DDBA /* Localizable.strings.swift */,
+				0824BCA42801C2030035DDBA /* XCAssets+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		0824BC9E2801C0F60035DDBA /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				08CB07892801C023005D054A /* Assets.xcassets */,
+				0824BC9F2801C1300035DDBA /* Colors.xcassets */,
+				0824BCA12801C1430035DDBA /* Localizable.strings */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		0824BCA92801C31F0035DDBA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0824BCBC2801C64F0035DDBA /* Home */,
+				088AE82C2801EBF4004C5343 /* SerieDetails */,
+				088AE83D28024F8A004C5343 /* EpisodesList */,
+				088AE85628029544004C5343 /* ContentView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0824BCAA2801C3310035DDBA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0824BCAB2801C3620035DDBA /* HTTPMethod.swift */,
+				0824BCAD2801C3790035DDBA /* Service.swift */,
+				0824BCAF2801C3970035DDBA /* ApiError.swift */,
+				0824BCB12801C3C20035DDBA /* DataRequest.swift */,
+				0824BCB32801C3DE0035DDBA /* BaseURL.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0824BCB52801C4220035DDBA /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				0824BCB62801C42A0035DDBA /* Series */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		0824BCB62801C42A0035DDBA /* Series */ = {
+			isa = PBXGroup;
+			children = (
+				0824BCB72801C4B10035DDBA /* SeriesEndpoint.swift */,
+				088AE83928021652004C5343 /* EpisodesEndpoint.swift */,
+			);
+			path = Series;
+			sourceTree = "<group>";
+		};
+		0824BCB92801C4E50035DDBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0824BCBA2801C4F50035DDBA /* SeriesResponse.swift */,
+				088AE83728021241004C5343 /* EpisodeResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0824BCBC2801C64F0035DDBA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				08CB07872801C01F005D054A /* HomeView.swift */,
+				0824BCBD2801C65C0035DDBA /* HomeService.swift */,
+				08E77C592801CE9E004E1F29 /* HomeViewModel.swift */,
+				08E77C5B2801CEC0004E1F29 /* HomeFactory.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		088AE81D2801DE57004C5343 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				088AE84E280293B3004C5343 /* Navigation */,
+				088AE8292801E47F004C5343 /* PreferenceKeys */,
+				088AE8222801E25F004C5343 /* Styles */,
+				088AE83B280219A6004C5343 /* EpisodeView.swift */,
+				088AE8202801DEB0004C5343 /* SerieView.swift */,
+				088AE83528020C0A004C5343 /* HTMLStringView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		088AE8222801E25F004C5343 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				088AE8232801E277004C5343 /* Styles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		088AE8292801E47F004C5343 /* PreferenceKeys */ = {
+			isa = PBXGroup;
+			children = (
+				088AE82A2801E48F004C5343 /* ScrollPreferenceKey.swift */,
+				088AE854280294D5004C5343 /* TabPreferenceKey.swift */,
+			);
+			path = PreferenceKeys;
+			sourceTree = "<group>";
+		};
+		088AE82C2801EBF4004C5343 /* SerieDetails */ = {
+			isa = PBXGroup;
+			children = (
+				088AE82D2801EC07004C5343 /* SerieDetailsView.swift */,
+				088AE82F2801FD14004C5343 /* SerieDetailsFactory.swift */,
+				088AE8312801FD2D004C5343 /* SerieDetailsViewModel.swift */,
+				088AE8332801FD3C004C5343 /* SerieDetailsService.swift */,
+			);
+			path = SerieDetails;
+			sourceTree = "<group>";
+		};
+		088AE83D28024F8A004C5343 /* EpisodesList */ = {
+			isa = PBXGroup;
+			children = (
+				088AE83E28024F98004C5343 /* EpisodesListView.swift */,
+				088AE840280251D4004C5343 /* EpisodesListFactory.swift */,
+				088AE842280251E0004C5343 /* EpisodesListViewModel.swift */,
+				088AE844280251E9004C5343 /* EpisodesListService.swift */,
+			);
+			path = EpisodesList;
+			sourceTree = "<group>";
+		};
+		088AE84628027695004C5343 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				088AE84C280277EF004C5343 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		088AE84928027731004C5343 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				088AE84A28027753004C5343 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		088AE84E280293B3004C5343 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				088AE84F280293C1004C5343 /* TabBar.swift */,
+				088AE8522802940A004C5343 /* Tab.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		088AE85828029776004C5343 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				088AE85C28029B97004C5343 /* EpisodesList */,
+				088AE85928029786004C5343 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		088AE85928029786004C5343 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				088AE85A280297A4004C5343 /* HomeViewModelTests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		088AE85C28029B97004C5343 /* EpisodesList */ = {
+			isa = PBXGroup;
+			children = (
+				088AE85D28029BA8004C5343 /* EpisodesListViewModelTests.swift */,
+			);
+			path = EpisodesList;
+			sourceTree = "<group>";
+		};
 		08CB07792801C01F005D054A = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +348,8 @@
 				08CB07952801C024005D054A /* TatsuflixTests */,
 				08CB079F2801C024005D054A /* TatsuflixUITests */,
 				08CB07832801C01F005D054A /* Products */,
+				3A55834ED0C6FF8E48B39B90 /* Pods */,
+				A994907EACB8B0D81BBB1875 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +366,16 @@
 		08CB07842801C01F005D054A /* Tatsuflix */ = {
 			isa = PBXGroup;
 			children = (
+				0824BC9D2801C0EF0035DDBA /* Generated */,
+				0824BCB92801C4E50035DDBA /* Models */,
+				0824BCB52801C4220035DDBA /* Endpoints */,
+				0824BCAA2801C3310035DDBA /* Network */,
+				088AE84928027731004C5343 /* Utils */,
+				088AE84628027695004C5343 /* Extensions */,
+				0824BC9E2801C0F60035DDBA /* SupportFiles */,
+				0824BCA92801C31F0035DDBA /* Scenes */,
+				088AE81D2801DE57004C5343 /* Components */,
 				08CB07852801C01F005D054A /* TatsuflixApp.swift */,
-				08CB07872801C01F005D054A /* ContentView.swift */,
-				08CB07892801C023005D054A /* Assets.xcassets */,
 				08CB078B2801C023005D054A /* Preview Content */,
 			);
 			path = Tatsuflix;
@@ -113,6 +392,7 @@
 		08CB07952801C024005D054A /* TatsuflixTests */ = {
 			isa = PBXGroup;
 			children = (
+				088AE85828029776004C5343 /* Scenes */,
 				08CB07962801C024005D054A /* TatsuflixTests.swift */,
 			);
 			path = TatsuflixTests;
@@ -127,6 +407,29 @@
 			path = TatsuflixUITests;
 			sourceTree = "<group>";
 		};
+		3A55834ED0C6FF8E48B39B90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E592171A8A0A5BE27EED45D2 /* Pods-Tatsuflix.debug.xcconfig */,
+				5583C59DA262C27A57423778 /* Pods-Tatsuflix.release.xcconfig */,
+				1A88DA6B50D40A18900F16D6 /* Pods-Tatsuflix-TatsuflixUITests.debug.xcconfig */,
+				1DC43CDE188AB5F0BBE42488 /* Pods-Tatsuflix-TatsuflixUITests.release.xcconfig */,
+				37C88EBAB9A227C92ECCD768 /* Pods-TatsuflixTests.debug.xcconfig */,
+				6CDFE8BD76A2046CE525536E /* Pods-TatsuflixTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A994907EACB8B0D81BBB1875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				364D5BEB914B190DCF9759A6 /* Pods_Tatsuflix.framework */,
+				EEC519F042969CB198F78DF1 /* Pods_Tatsuflix_TatsuflixUITests.framework */,
+				7162961615DB605778E6AC93 /* Pods_TatsuflixTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +437,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08CB07A62801C024005D054A /* Build configuration list for PBXNativeTarget "Tatsuflix" */;
 			buildPhases = (
+				C264868AD4C1A3BA8F520F83 /* [CP] Check Pods Manifest.lock */,
+				0824BCA72801C2D10035DDBA /* Swiftlint */,
+				0824BCA82801C2FA0035DDBA /* Swiftgen */,
 				08CB077E2801C01F005D054A /* Sources */,
 				08CB077F2801C01F005D054A /* Frameworks */,
 				08CB07802801C01F005D054A /* Resources */,
@@ -151,6 +457,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08CB07A92801C024005D054A /* Build configuration list for PBXNativeTarget "TatsuflixTests" */;
 			buildPhases = (
+				8A42EA1F57AE0507CAA4E91B /* [CP] Check Pods Manifest.lock */,
 				08CB078E2801C024005D054A /* Sources */,
 				08CB078F2801C024005D054A /* Frameworks */,
 				08CB07902801C024005D054A /* Resources */,
@@ -169,6 +476,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08CB07AC2801C024005D054A /* Build configuration list for PBXNativeTarget "TatsuflixUITests" */;
 			buildPhases = (
+				00775AB31C461DD2922D5D59 /* [CP] Check Pods Manifest.lock */,
 				08CB07982801C024005D054A /* Sources */,
 				08CB07992801C024005D054A /* Frameworks */,
 				08CB079A2801C024005D054A /* Resources */,
@@ -231,6 +539,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0824BCA02801C1300035DDBA /* Colors.xcassets in Resources */,
+				0824BCA22801C1430035DDBA /* Localizable.strings in Resources */,
 				08CB078D2801C023005D054A /* Preview Assets.xcassets in Resources */,
 				08CB078A2801C023005D054A /* Assets.xcassets in Resources */,
 			);
@@ -252,13 +562,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00775AB31C461DD2922D5D59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tatsuflix-TatsuflixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0824BCA72801C2D10035DDBA /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nswiftlint\n";
+		};
+		0824BCA82801C2FA0035DDBA /* Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nswiftgen\n";
+		};
+		8A42EA1F57AE0507CAA4E91B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TatsuflixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C264868AD4C1A3BA8F520F83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tatsuflix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08CB077E2801C01F005D054A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08CB07882801C01F005D054A /* ContentView.swift in Sources */,
+				088AE83828021241004C5343 /* EpisodeResponse.swift in Sources */,
+				0824BCB02801C3970035DDBA /* ApiError.swift in Sources */,
+				08CB07882801C01F005D054A /* HomeView.swift in Sources */,
+				088AE83628020C0A004C5343 /* HTMLStringView.swift in Sources */,
 				08CB07862801C01F005D054A /* TatsuflixApp.swift in Sources */,
+				088AE84B28027753004C5343 /* Utils.swift in Sources */,
+				088AE8302801FD14004C5343 /* SerieDetailsFactory.swift in Sources */,
+				088AE83A28021652004C5343 /* EpisodesEndpoint.swift in Sources */,
+				0824BCB82801C4B10035DDBA /* SeriesEndpoint.swift in Sources */,
+				0824BCA52801C2030035DDBA /* Localizable.strings.swift in Sources */,
+				0824BCBB2801C4F50035DDBA /* SeriesResponse.swift in Sources */,
+				0824BCBE2801C65C0035DDBA /* HomeService.swift in Sources */,
+				088AE83F28024F98004C5343 /* EpisodesListView.swift in Sources */,
+				088AE845280251E9004C5343 /* EpisodesListService.swift in Sources */,
+				0824BCAC2801C3620035DDBA /* HTTPMethod.swift in Sources */,
+				088AE8212801DEB0004C5343 /* SerieView.swift in Sources */,
+				088AE85728029544004C5343 /* ContentView.swift in Sources */,
+				08E77C5A2801CE9E004E1F29 /* HomeViewModel.swift in Sources */,
+				088AE83C280219A6004C5343 /* EpisodeView.swift in Sources */,
+				08E77C5C2801CEC0004E1F29 /* HomeFactory.swift in Sources */,
+				088AE850280293C1004C5343 /* TabBar.swift in Sources */,
+				088AE82B2801E48F004C5343 /* ScrollPreferenceKey.swift in Sources */,
+				088AE843280251E0004C5343 /* EpisodesListViewModel.swift in Sources */,
+				088AE8242801E277004C5343 /* Styles.swift in Sources */,
+				088AE841280251D4004C5343 /* EpisodesListFactory.swift in Sources */,
+				088AE8342801FD3C004C5343 /* SerieDetailsService.swift in Sources */,
+				088AE82E2801EC07004C5343 /* SerieDetailsView.swift in Sources */,
+				0824BCA62801C2030035DDBA /* XCAssets+Generated.swift in Sources */,
+				088AE8532802940A004C5343 /* Tab.swift in Sources */,
+				088AE8322801FD2D004C5343 /* SerieDetailsViewModel.swift in Sources */,
+				0824BCAE2801C3790035DDBA /* Service.swift in Sources */,
+				088AE855280294D5004C5343 /* TabPreferenceKey.swift in Sources */,
+				088AE84D280277EF004C5343 /* String+Extensions.swift in Sources */,
+				0824BCB22801C3C20035DDBA /* DataRequest.swift in Sources */,
+				0824BCB42801C3DE0035DDBA /* BaseURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +715,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08CB07972801C024005D054A /* TatsuflixTests.swift in Sources */,
+				088AE85B280297A4004C5343 /* HomeViewModelTests.swift in Sources */,
+				088AE85E28029BA8004C5343 /* EpisodesListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +861,7 @@
 		};
 		08CB07A72801C024005D054A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E592171A8A0A5BE27EED45D2 /* Pods-Tatsuflix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +891,7 @@
 		};
 		08CB07A82801C024005D054A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5583C59DA262C27A57423778 /* Pods-Tatsuflix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +921,7 @@
 		};
 		08CB07AA2801C024005D054A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C88EBAB9A227C92ECCD768 /* Pods-TatsuflixTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +942,7 @@
 		};
 		08CB07AB2801C024005D054A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CDFE8BD76A2046CE525536E /* Pods-TatsuflixTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +963,7 @@
 		};
 		08CB07AD2801C024005D054A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A88DA6B50D40A18900F16D6 /* Pods-Tatsuflix-TatsuflixUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +982,7 @@
 		};
 		08CB07AE2801C024005D054A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC43CDE188AB5F0BBE42488 /* Pods-Tatsuflix-TatsuflixUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

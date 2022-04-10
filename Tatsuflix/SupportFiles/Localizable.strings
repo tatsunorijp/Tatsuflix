@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  Tatsuflix
+
+  Created by Wellington Tatsunori Asahide on 09/04/22.
+  
+*/
+
+"Title" = "TatsuFlix";
+
+// MARK: - SerieView
+"SerieView.Stars" = "Stars - %@";
+"SerieView.Status" = "Status - %@";
+
+// MARK: - SerieDetails
+"SerieDetails.Title" = "Details";
+"SerieDetails.Genres" = "Genres";
+"SerieDetails.ReleaseDays" = "Release Days";
+"SerieDetails.ExhibitionTime" = "Exchibition Time: %@";
+"SerieDetails.Episodes" = "Episodes";
+
+// MARK: - EpisodeView
+"EpisodeView.Title" =  "%@. - %@";
+
+// MARK: - EpisodeListView
+"EpisodeListView.Title" = "Episodes";
+"EpisodeListView.Season" = "Season %@";
