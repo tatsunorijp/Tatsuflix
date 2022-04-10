@@ -29,6 +29,22 @@ internal enum L10n {
     }
   }
 
+  internal enum GenericError {
+    /// Something went wrong
+    internal static let body = L10n.tr("Localizable", "GenericError.Body")
+    /// OK
+    internal static let ok = L10n.tr("Localizable", "GenericError.OK")
+    /// Oops...
+    internal static let title = L10n.tr("Localizable", "GenericError.Title")
+  }
+
+  internal enum SearchSeries {
+    /// Search Series
+    internal static let searchPlaceholder = L10n.tr("Localizable", "SearchSeries.SearchPlaceholder")
+    /// Search
+    internal static let title = L10n.tr("Localizable", "SearchSeries.Title")
+  }
+
   internal enum SerieDetails {
     /// Episodes
     internal static let episodes = L10n.tr("Localizable", "SerieDetails.Episodes")

@@ -36,7 +36,7 @@ final class Service: Servicing {
         urlRequest.allHTTPHeaderFields = request.headers
         
         URLSession.shared.dataTask(with: urlRequest) { (data, response, error) in
-            if let _ = error {
+            if error != nil {
                 return completion(.failure(.generic))
             }
             

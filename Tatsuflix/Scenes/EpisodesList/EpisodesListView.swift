@@ -12,24 +12,26 @@ struct EpisodesListView: View {
     @StateObject var viewModel: EpisodesListViewModel
     
     var body: some View {
-        NavigationView {
-            List(viewModel.seasons) { season in
-                Text(L10n.EpisodeListView.season(season.seasonNumber))
-                        .font(.title.weight(.semibold))
-                        .padding(.top, 16)
-                    ForEach(season.episodes) { episode in
-                        EpisodeView(episode: episode)
-                    }
-                    .listRowSeparator(.hidden)
+        BaseView(content: {
+            NavigationView {
+                List(viewModel.seasons) { season in
+                    Text(L10n.EpisodeListView.season(season.seasonNumber))
+                            .font(.title.weight(.semibold))
+                            .padding(.top, 16)
+                        ForEach(season.episodes) { episode in
+                            EpisodeView(episode: episode)
+                        }
+                        .listRowSeparator(.hidden)
+                }
+                .listRowSeparator(.hidden)
+                .navigationTitle(Text(L10n.EpisodeListView.title))
+                .navigationBarTitleDisplayMode(.inline)
+                .listStyle(.plain)
+                .onAppear {
+                    viewModel.fetchEpisodes()
+                }
             }
-            .listRowSeparator(.hidden)
-            .navigationTitle(Text(L10n.EpisodeListView.title))
-            .navigationBarTitleDisplayMode(.inline)
-            .listStyle(.plain)
-            .onAppear {
-                viewModel.fetchEpisodes()
-            }
-        }
+        }, isLoading: $viewModel.isLoading, showGenericError: $viewModel.error)
     }
 }
 

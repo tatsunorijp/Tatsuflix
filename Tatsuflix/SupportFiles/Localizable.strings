@@ -5,8 +5,14 @@
   Created by Wellington Tatsunori Asahide on 09/04/22.
   
 */
-
+// MARK: - Global
 "Title" = "TatsuFlix";
+
+// MARK: - GenericError
+"GenericError.Title" = "Oops...";
+"GenericError.Body" = "Something went wrong";
+"GenericError.OK" = "OK";
+
 
 // MARK: - SerieView
 "SerieView.Stars" = "Stars - %@";
@@ -25,3 +31,7 @@
 // MARK: - EpisodeListView
 "EpisodeListView.Title" = "Episodes";
 "EpisodeListView.Season" = "Season %@";
+
+// MARK: - SearchSeries
+"SearchSeries.Title" = "Search";
+"SearchSeries.SearchPlaceholder" = "Search Series";

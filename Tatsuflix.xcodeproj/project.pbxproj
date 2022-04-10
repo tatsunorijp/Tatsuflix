@@ -51,7 +51,10 @@
 		0892270928037B8E005F08AB /* FavoritedSeriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892270828037B8E005F08AB /* FavoritedSeriesService.swift */; };
 		0892270B28037B99005F08AB /* FavoritedSeriesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892270A28037B99005F08AB /* FavoritedSeriesFactory.swift */; };
 		0892270D28037E20005F08AB /* SingleSearchSerieEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892270C28037E20005F08AB /* SingleSearchSerieEndpoint.swift */; };
-		0892270F280382A3005F08AB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892270E280382A3005F08AB /* LoadingView.swift */; };
+		0892270F280382A3005F08AB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892270E280382A3005F08AB /* BaseView.swift */; };
+		0892271128038E0C005F08AB /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892271028038E0C005F08AB /* VisualEffectView.swift */; };
+		089227132803909C005F08AB /* ShowTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089227122803909C005F08AB /* ShowTabBar.swift */; };
+		089227162803A19F005F08AB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089227152803A19F005F08AB /* SettingsView.swift */; };
 		08CB07862801C01F005D054A /* TatsuflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07852801C01F005D054A /* TatsuflixApp.swift */; };
 		08CB07882801C01F005D054A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07872801C01F005D054A /* HomeView.swift */; };
 		08CB078A2801C023005D054A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CB07892801C023005D054A /* Assets.xcassets */; };
@@ -131,7 +134,10 @@
 		0892270828037B8E005F08AB /* FavoritedSeriesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedSeriesService.swift; sourceTree = "<group>"; };
 		0892270A28037B99005F08AB /* FavoritedSeriesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedSeriesFactory.swift; sourceTree = "<group>"; };
 		0892270C28037E20005F08AB /* SingleSearchSerieEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSearchSerieEndpoint.swift; sourceTree = "<group>"; };
-		0892270E280382A3005F08AB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0892270E280382A3005F08AB /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		0892271028038E0C005F08AB /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		089227122803909C005F08AB /* ShowTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTabBar.swift; sourceTree = "<group>"; };
+		089227152803A19F005F08AB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		08CB07822801C01F005D054A /* Tatsuflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tatsuflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CB07852801C01F005D054A /* TatsuflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixApp.swift; sourceTree = "<group>"; };
 		08CB07872801C01F005D054A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -215,7 +221,7 @@
 				088AE83D28024F8A004C5343 /* EpisodesList */,
 				08FC80DB280330C800918C1F /* SearchSeries */,
 				0892270328037B49005F08AB /* FavoritedSeries */,
-				088AE85628029544004C5343 /* ContentView.swift */,
+				089227142803A188005F08AB /* Settings */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -281,7 +287,8 @@
 				088AE83B280219A6004C5343 /* EpisodeView.swift */,
 				088AE8202801DEB0004C5343 /* SerieView.swift */,
 				088AE83528020C0A004C5343 /* HTMLStringView.swift */,
-				0892270E280382A3005F08AB /* LoadingView.swift */,
+				0892270E280382A3005F08AB /* BaseView.swift */,
+				0892271028038E0C005F08AB /* VisualEffectView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -347,6 +354,7 @@
 			children = (
 				088AE84F280293C1004C5343 /* TabBar.swift */,
 				088AE8522802940A004C5343 /* Tab.swift */,
+				089227122803909C005F08AB /* ShowTabBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -396,6 +404,14 @@
 			path = FavoritedSeries;
 			sourceTree = "<group>";
 		};
+		089227142803A188005F08AB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				089227152803A19F005F08AB /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		08CB07792801C01F005D054A = {
 			isa = PBXGroup;
 			children = (
@@ -429,6 +445,7 @@
 				088AE84628027695004C5343 /* Extensions */,
 				0824BC9E2801C0F60035DDBA /* SupportFiles */,
 				0824BCA92801C31F0035DDBA /* Scenes */,
+				088AE85628029544004C5343 /* ContentView.swift */,
 				088AE81D2801DE57004C5343 /* Components */,
 				08CB07852801C01F005D054A /* TatsuflixApp.swift */,
 				08CB078B2801C023005D054A /* Preview Content */,
@@ -743,9 +760,10 @@
 				0892270D28037E20005F08AB /* SingleSearchSerieEndpoint.swift in Sources */,
 				08CB07882801C01F005D054A /* HomeView.swift in Sources */,
 				088AE83628020C0A004C5343 /* HTMLStringView.swift in Sources */,
-				0892270F280382A3005F08AB /* LoadingView.swift in Sources */,
+				0892270F280382A3005F08AB /* BaseView.swift in Sources */,
 				08CB07862801C01F005D054A /* TatsuflixApp.swift in Sources */,
 				08FC80DD280330E000918C1F /* SearchSeriesView.swift in Sources */,
+				089227132803909C005F08AB /* ShowTabBar.swift in Sources */,
 				0892270728037B84005F08AB /* FavoritedSeriesView.swift in Sources */,
 				088AE8302801FD14004C5343 /* SerieDetailsFactory.swift in Sources */,
 				0892270B28037B99005F08AB /* FavoritedSeriesFactory.swift in Sources */,
@@ -775,6 +793,8 @@
 				088AE82E2801EC07004C5343 /* SerieDetailsView.swift in Sources */,
 				0892270928037B8E005F08AB /* FavoritedSeriesService.swift in Sources */,
 				0824BCA62801C2030035DDBA /* XCAssets+Generated.swift in Sources */,
+				0892271128038E0C005F08AB /* VisualEffectView.swift in Sources */,
+				089227162803A19F005F08AB /* SettingsView.swift in Sources */,
 				08FC80E1280330F800918C1F /* SearchSeriesService.swift in Sources */,
 				088AE8532802940A004C5343 /* Tab.swift in Sources */,
 				0892270228036F38005F08AB /* UserDefaultsHelper.swift in Sources */,

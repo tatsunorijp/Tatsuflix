@@ -19,8 +19,8 @@ struct FavoritedSeriesView: View {
     }
 }
 
-//struct FavoritedSeriesView_Previews: PreviewProvider {
+// struct FavoritedSeriesView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        FavoritedSeriesView()
 //    }
-//}
+// }

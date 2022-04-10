@@ -9,6 +9,9 @@ import Foundation
 
 final class EpisodesListViewModel: ObservableObject {
     @Published var seasons: [SerieSeason] = []
+    @Published var isLoading = false
+    @Published var error = false
+    
     private let service: EpisodesListServicing
     private let episodeId: Int
     
@@ -18,13 +21,16 @@ final class EpisodesListViewModel: ObservableObject {
     }
     
     func fetchEpisodes() {
+        isLoading = true
         service.fetchEpisodes(of: episodeId) { [weak self] result in
             guard let self = self else { return }
+            self.isLoading = false
+            
             switch result {
             case .success(let episodes):
                 self.separateInSeason(episodes: episodes)
-            case .failure(let error):
-                print(error)
+            case .failure:
+                self.error = true
             }
         }
     }

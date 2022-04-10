@@ -11,34 +11,36 @@ struct HomeView: View {
     @State var hasScrolled = false
     @State private var viewDidLoad = false
     @StateObject var viewModel: HomeViewModel
+    @Environment(\.showTabBar) var showTabBar
     
     var body: some View {
-        NavigationView {
-            
-            List {
-                ForEach(viewModel.series) { serie in
-                    NavigationLink(destination: SerieDetailsFactory().build(serie: serie)) {
-                        SerieView(serie: serie)
-                    }
-                    .listRowSeparator(.hidden)
-                }
-                
-                if !viewModel.seriesIsFull {
-                    ProgressView()
-                        .onAppear {
-                            viewModel.getSeries()
+        BaseView(content: {
+            NavigationView {
+                List {
+                    ForEach(viewModel.series) { serie in
+                        NavigationLink(destination: SerieDetailsFactory().build(serie: serie)) {
+                            SerieView(serie: serie)
                         }
-                        .frame(maxWidth: .infinity)
+                        .listRowSeparator(.hidden)
+                    }
+                    
+                    if !viewModel.seriesIsFull {
+                        ProgressView()
+                            .onAppear {
+                                viewModel.getSeries()
+                            }
+                            .frame(maxWidth: .infinity)
+                    }
                 }
+                .listStyle(.plain)
+                .preferredColorScheme(.dark)
+                .navigationBarTitleDisplayMode(.large)
+                .navigationTitle(Text(L10n.title))
             }
-            .onAppear {
-//                viewModel.getSeries()
-            }
-            .listStyle(.plain)
-            .preferredColorScheme(.dark)
-            .navigationBarTitleDisplayMode(.large)
-            .navigationTitle(Text(L10n.title))
-        }
+        },
+                    isLoading: $viewModel.isLoading,
+                    showGenericError: $viewModel.error)
+        .environment(\.showTabBar, !viewModel.isLoading)
     }
 }
 

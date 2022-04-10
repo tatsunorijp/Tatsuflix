@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     @AppStorage("selectedTab") var selectedTab: Tab = .home
-    @State var showTabBar: Bool = true
+    @Environment(\.showTabBar) var showTabBar
+    
     var body: some View {
         ZStack(alignment: .bottom) {
             Group {
@@ -21,10 +22,13 @@ struct ContentView: View {
                 case .favorite:
                     FavoritedSeriesFactory().build()
                 case .configs:
-                    Text("")
+                    SettingsView()
                 }
             }
-            TabBar()
+            
+            if showTabBar {
+                TabBar()
+            }
         }
         .safeAreaInset(edge: .bottom) {
             // would be a good idea put all numbers inside of

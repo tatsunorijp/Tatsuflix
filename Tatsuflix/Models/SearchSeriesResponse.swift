@@ -21,6 +21,6 @@ extension SearchSeriesResponse {
         SearchSeriesResponse(
             score: 0.0,
             show: SerieResponse.mock[1]
-        ),
+        )
     ]
 }
