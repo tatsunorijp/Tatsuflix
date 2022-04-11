@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -28,33 +28,16 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2725348CAD9658F8B9CC5FC25B863C4A /* Pods-Tatsuflix-TatsuflixUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BB342381F024CB7DE7E280C99D74BC /* Pods-Tatsuflix-TatsuflixUITests-dummy.m */; };
-		42719DC83052C96F29A2519F49C2020E /* Pods-TatsuflixTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F7CD7D08A7B052DFCBF1A851FB21032 /* Pods-TatsuflixTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43460F04266F1B59A064A1965E936159 /* Pods-TatsuflixTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F6CAEDA96384704655672D95BF00F2 /* Pods-TatsuflixTests-dummy.m */; };
-		59917C76867BA8ABBAD28F8A8AEA7D3E /* Pods-Tatsuflix-TatsuflixUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC66F9C6577A032CF91F0F7E5006F35 /* Pods-Tatsuflix-TatsuflixUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60B2858A6C9EE15A5E609F31FB21F893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8BA58653D98352EE841EAFB20592D540 /* Pods-Tatsuflix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF8DB0DB11A54393369AC21927DBCC5 /* Pods-Tatsuflix-dummy.m */; };
+		42719DC83052C96F29A2519F49C2020E /* Pods-TatsuflixTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A12AA083BB52026A0430D02BEDD9B35 /* Pods-TatsuflixTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43460F04266F1B59A064A1965E936159 /* Pods-TatsuflixTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A35706CBC2E4292F0ABB339787B200 /* Pods-TatsuflixTests-dummy.m */; };
+		8BA58653D98352EE841EAFB20592D540 /* Pods-Tatsuflix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D95996A082C38E0324B4CE6F2469AA13 /* Pods-Tatsuflix-dummy.m */; };
 		ACB90B45A4EC02C6C95F4C4D2787679D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AF999821462A84490AE5233EB79E03E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F8F90744651E31705DF5304E3F8D9D8F /* Pods-Tatsuflix-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DC1283F964B4AFF178660EA0034F97 /* Pods-Tatsuflix-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8F90744651E31705DF5304E3F8D9D8F /* Pods-Tatsuflix-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0E425989EA51716A111AAC28193B95 /* Pods-Tatsuflix-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		605D5EEA4F8E8B96ABC42826143DE832 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
-			remoteInfo = SwiftLint;
-		};
-		95860C057E2E9EE764202A199766CC94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
-			remoteInfo = SwiftGen;
-		};
-		B2FBFDAD7725B74AC52DB6EC5A14D722 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -78,50 +61,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06E265D388C181CE78EE53981A6AB8B8 /* Pods-Tatsuflix-TatsuflixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tatsuflix-TatsuflixUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		0FB4D0F5D38069F05CF1BB4FF51731E1 /* Pods-TatsuflixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TatsuflixTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1D98168F34F0CE222653DEB1635649F6 /* Pods-Tatsuflix-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tatsuflix-Info.plist"; sourceTree = "<group>"; };
-		2D147992BECA45FC1116F335EE4523D6 /* Pods-TatsuflixTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TatsuflixTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		37F7D5EE0C15B6D15ACD1BCD28D6A691 /* Pods-Tatsuflix-TatsuflixUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tatsuflix-TatsuflixUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3856CB5320F6B870CD8793BD75701312 /* Pods-TatsuflixTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TatsuflixTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0872F7E612037DD6C4B984BD1F6F5564 /* Pods-TatsuflixTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TatsuflixTests.modulemap"; sourceTree = "<group>"; };
+		2D8F36035CC64FB78B688D4F2013FD7D /* Pods-Tatsuflix-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tatsuflix-Info.plist"; sourceTree = "<group>"; };
+		3A12AA083BB52026A0430D02BEDD9B35 /* Pods-TatsuflixTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TatsuflixTests-umbrella.h"; sourceTree = "<group>"; };
 		3C00EB77C497573FF9D21FFD48AC279F /* SwiftGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.release.xcconfig; sourceTree = "<group>"; };
-		3F7CD7D08A7B052DFCBF1A851FB21032 /* Pods-TatsuflixTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TatsuflixTests-umbrella.h"; sourceTree = "<group>"; };
-		42F6CAEDA96384704655672D95BF00F2 /* Pods-TatsuflixTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TatsuflixTests-dummy.m"; sourceTree = "<group>"; };
-		4DF8DB0DB11A54393369AC21927DBCC5 /* Pods-Tatsuflix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tatsuflix-dummy.m"; sourceTree = "<group>"; };
+		44E230D1051758F51A18B8339D495D64 /* Pods-Tatsuflix.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tatsuflix.modulemap"; sourceTree = "<group>"; };
+		63C22F14BDEEC28CC5F2A089A7AF5851 /* Pods-TatsuflixTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TatsuflixTests-Info.plist"; sourceTree = "<group>"; };
 		654A6C84F21020C373FDFA753A8BEF57 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
-		67D354A6E7AE273CE4B34F6F869A1D4A /* Pods-TatsuflixTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TatsuflixTests-Info.plist"; sourceTree = "<group>"; };
+		69ED6925DC5950190F0F48F3638B55A0 /* Pods-Tatsuflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tatsuflix.release.xcconfig"; sourceTree = "<group>"; };
 		6B4F8F3FE262E6A67B23F824C11E398C /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		6C0E425989EA51716A111AAC28193B95 /* Pods-Tatsuflix-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tatsuflix-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		80207B6980503A715490F106F854F717 /* Pods-Tatsuflix-TatsuflixUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Tatsuflix-TatsuflixUITests"; path = Pods_Tatsuflix_TatsuflixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A35706CBC2E4292F0ABB339787B200 /* Pods-TatsuflixTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TatsuflixTests-dummy.m"; sourceTree = "<group>"; };
 		826D913EDDACCB8226441B57A4D35A8F /* Pods-Tatsuflix */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Tatsuflix"; path = Pods_Tatsuflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A17A11F02ED546CF1A26F5E7AD4EFD5 /* Pods-Tatsuflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tatsuflix.debug.xcconfig"; sourceTree = "<group>"; };
 		95F48AF9D7906988366DD3C6C3975455 /* Pods-TatsuflixTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TatsuflixTests"; path = Pods_TatsuflixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98BB342381F024CB7DE7E280C99D74BC /* Pods-Tatsuflix-TatsuflixUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tatsuflix-TatsuflixUITests-dummy.m"; sourceTree = "<group>"; };
-		99A2A0FDD3A58699E9028D2416614240 /* Pods-Tatsuflix-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tatsuflix-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B0169002FF1C6472B1723ADB498CE551 /* Pods-Tatsuflix-TatsuflixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tatsuflix-TatsuflixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8FF5CCF4F74E274003C0B901EEFBA19 /* Pods-Tatsuflix-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tatsuflix-acknowledgements.plist"; sourceTree = "<group>"; };
 		B3DA6E6F2A1F5E119072913BFDF06794 /* SwiftGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.debug.xcconfig; sourceTree = "<group>"; };
-		B864F3B1A18BBBAD6190E0A30C526E40 /* Pods-Tatsuflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tatsuflix.debug.xcconfig"; sourceTree = "<group>"; };
-		BBF61F210360F7BE9C8D15ED65653C9A /* Pods-Tatsuflix-TatsuflixUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tatsuflix-TatsuflixUITests.modulemap"; sourceTree = "<group>"; };
-		BC62739DD84A471C75E4465586988479 /* Pods-TatsuflixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TatsuflixTests.release.xcconfig"; sourceTree = "<group>"; };
-		BCC66F9C6577A032CF91F0F7E5006F35 /* Pods-Tatsuflix-TatsuflixUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tatsuflix-TatsuflixUITests-umbrella.h"; sourceTree = "<group>"; };
-		C0794034A7708B02C57F14825906CBAA /* Pods-Tatsuflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tatsuflix.release.xcconfig"; sourceTree = "<group>"; };
-		C3CB7F245E10996E8C13F071ABB0F76B /* Pods-Tatsuflix-TatsuflixUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tatsuflix-TatsuflixUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC06CEF9E35902B6718C5CE4376C76AF /* Pods-Tatsuflix-TatsuflixUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tatsuflix-TatsuflixUITests-Info.plist"; sourceTree = "<group>"; };
-		D0DC1283F964B4AFF178660EA0034F97 /* Pods-Tatsuflix-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tatsuflix-umbrella.h"; sourceTree = "<group>"; };
-		D4D22FC88839DE952D59E3A32B675FFC /* Pods-Tatsuflix.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Tatsuflix.modulemap"; sourceTree = "<group>"; };
-		DB000DA7B7BB7F5727AAE0F92C6C325F /* Pods-Tatsuflix-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tatsuflix-acknowledgements.plist"; sourceTree = "<group>"; };
-		E0DD045CFA4E9B3B8B0E3B5ECBE583ED /* Pods-TatsuflixTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TatsuflixTests.modulemap"; sourceTree = "<group>"; };
+		B420D112DCB68D4BAF42DCE4226EDBB8 /* Pods-TatsuflixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TatsuflixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6AD28CC3F17A648DD26C274C2A56EFA /* Pods-TatsuflixTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TatsuflixTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D79E5A02371EEE871F77678EA68CD6A7 /* Pods-TatsuflixTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TatsuflixTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D95996A082C38E0324B4CE6F2469AA13 /* Pods-Tatsuflix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tatsuflix-dummy.m"; sourceTree = "<group>"; };
+		EA810FF71B8CBE25C95FB5D678DF3C0D /* Pods-TatsuflixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TatsuflixTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF1D4B39D9E088C80E4ADAEAC1EA3F36 /* Pods-Tatsuflix-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tatsuflix-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		018D4AC65F6606832066975F5E91F177 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60B2858A6C9EE15A5E609F31FB21F893 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		998EA46792285DB52ECC37DD6EAB1175 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,30 +107,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		183D13AA114CEBC1211EC40B45E0195F /* Products */ = {
+		06F036D8577349FF8A34F9DABF43680A /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				826D913EDDACCB8226441B57A4D35A8F /* Pods-Tatsuflix */,
-				80207B6980503A715490F106F854F717 /* Pods-Tatsuflix-TatsuflixUITests */,
 				95F48AF9D7906988366DD3C6C3975455 /* Pods-TatsuflixTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		24A39EF5BFEE014E6CCFABAAEB6B4A72 /* Pods-Tatsuflix-TatsuflixUITests */ = {
+		1CFEB400B537033FAF0582B05C2EA196 /* Pods-Tatsuflix */ = {
 			isa = PBXGroup;
 			children = (
-				BBF61F210360F7BE9C8D15ED65653C9A /* Pods-Tatsuflix-TatsuflixUITests.modulemap */,
-				C3CB7F245E10996E8C13F071ABB0F76B /* Pods-Tatsuflix-TatsuflixUITests-acknowledgements.markdown */,
-				37F7D5EE0C15B6D15ACD1BCD28D6A691 /* Pods-Tatsuflix-TatsuflixUITests-acknowledgements.plist */,
-				98BB342381F024CB7DE7E280C99D74BC /* Pods-Tatsuflix-TatsuflixUITests-dummy.m */,
-				CC06CEF9E35902B6718C5CE4376C76AF /* Pods-Tatsuflix-TatsuflixUITests-Info.plist */,
-				BCC66F9C6577A032CF91F0F7E5006F35 /* Pods-Tatsuflix-TatsuflixUITests-umbrella.h */,
-				06E265D388C181CE78EE53981A6AB8B8 /* Pods-Tatsuflix-TatsuflixUITests.debug.xcconfig */,
-				B0169002FF1C6472B1723ADB498CE551 /* Pods-Tatsuflix-TatsuflixUITests.release.xcconfig */,
+				44E230D1051758F51A18B8339D495D64 /* Pods-Tatsuflix.modulemap */,
+				EF1D4B39D9E088C80E4ADAEAC1EA3F36 /* Pods-Tatsuflix-acknowledgements.markdown */,
+				A8FF5CCF4F74E274003C0B901EEFBA19 /* Pods-Tatsuflix-acknowledgements.plist */,
+				D95996A082C38E0324B4CE6F2469AA13 /* Pods-Tatsuflix-dummy.m */,
+				2D8F36035CC64FB78B688D4F2013FD7D /* Pods-Tatsuflix-Info.plist */,
+				6C0E425989EA51716A111AAC28193B95 /* Pods-Tatsuflix-umbrella.h */,
+				8A17A11F02ED546CF1A26F5E7AD4EFD5 /* Pods-Tatsuflix.debug.xcconfig */,
+				69ED6925DC5950190F0F48F3638B55A0 /* Pods-Tatsuflix.release.xcconfig */,
 			);
-			name = "Pods-Tatsuflix-TatsuflixUITests";
-			path = "Target Support Files/Pods-Tatsuflix-TatsuflixUITests";
+			name = "Pods-Tatsuflix";
+			path = "Target Support Files/Pods-Tatsuflix";
 			sourceTree = "<group>";
 		};
 		463A951ECF142606318EFB8EB73F16FA /* Support Files */ = {
@@ -194,12 +159,11 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5AF73D10DD15E7F72D70319E13F2C7B0 /* Targets Support Files */ = {
+		68E9B486D2FF372514E9B5DFEFF60D62 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				908E1CDD7B963EB89F928A473D10B2F0 /* Pods-Tatsuflix */,
-				24A39EF5BFEE014E6CCFABAAEB6B4A72 /* Pods-Tatsuflix-TatsuflixUITests */,
-				892E1FFD0EB74DC61BE587A6143889D0 /* Pods-TatsuflixTests */,
+				1CFEB400B537033FAF0582B05C2EA196 /* Pods-Tatsuflix */,
+				AB20A666CCA767DF23F56F9E9E0B6E51 /* Pods-TatsuflixTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -213,36 +177,20 @@
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
-		892E1FFD0EB74DC61BE587A6143889D0 /* Pods-TatsuflixTests */ = {
+		AB20A666CCA767DF23F56F9E9E0B6E51 /* Pods-TatsuflixTests */ = {
 			isa = PBXGroup;
 			children = (
-				E0DD045CFA4E9B3B8B0E3B5ECBE583ED /* Pods-TatsuflixTests.modulemap */,
-				2D147992BECA45FC1116F335EE4523D6 /* Pods-TatsuflixTests-acknowledgements.markdown */,
-				3856CB5320F6B870CD8793BD75701312 /* Pods-TatsuflixTests-acknowledgements.plist */,
-				42F6CAEDA96384704655672D95BF00F2 /* Pods-TatsuflixTests-dummy.m */,
-				67D354A6E7AE273CE4B34F6F869A1D4A /* Pods-TatsuflixTests-Info.plist */,
-				3F7CD7D08A7B052DFCBF1A851FB21032 /* Pods-TatsuflixTests-umbrella.h */,
-				0FB4D0F5D38069F05CF1BB4FF51731E1 /* Pods-TatsuflixTests.debug.xcconfig */,
-				BC62739DD84A471C75E4465586988479 /* Pods-TatsuflixTests.release.xcconfig */,
+				0872F7E612037DD6C4B984BD1F6F5564 /* Pods-TatsuflixTests.modulemap */,
+				D79E5A02371EEE871F77678EA68CD6A7 /* Pods-TatsuflixTests-acknowledgements.markdown */,
+				B6AD28CC3F17A648DD26C274C2A56EFA /* Pods-TatsuflixTests-acknowledgements.plist */,
+				78A35706CBC2E4292F0ABB339787B200 /* Pods-TatsuflixTests-dummy.m */,
+				63C22F14BDEEC28CC5F2A089A7AF5851 /* Pods-TatsuflixTests-Info.plist */,
+				3A12AA083BB52026A0430D02BEDD9B35 /* Pods-TatsuflixTests-umbrella.h */,
+				B420D112DCB68D4BAF42DCE4226EDBB8 /* Pods-TatsuflixTests.debug.xcconfig */,
+				EA810FF71B8CBE25C95FB5D678DF3C0D /* Pods-TatsuflixTests.release.xcconfig */,
 			);
 			name = "Pods-TatsuflixTests";
 			path = "Target Support Files/Pods-TatsuflixTests";
-			sourceTree = "<group>";
-		};
-		908E1CDD7B963EB89F928A473D10B2F0 /* Pods-Tatsuflix */ = {
-			isa = PBXGroup;
-			children = (
-				D4D22FC88839DE952D59E3A32B675FFC /* Pods-Tatsuflix.modulemap */,
-				99A2A0FDD3A58699E9028D2416614240 /* Pods-Tatsuflix-acknowledgements.markdown */,
-				DB000DA7B7BB7F5727AAE0F92C6C325F /* Pods-Tatsuflix-acknowledgements.plist */,
-				4DF8DB0DB11A54393369AC21927DBCC5 /* Pods-Tatsuflix-dummy.m */,
-				1D98168F34F0CE222653DEB1635649F6 /* Pods-Tatsuflix-Info.plist */,
-				D0DC1283F964B4AFF178660EA0034F97 /* Pods-Tatsuflix-umbrella.h */,
-				B864F3B1A18BBBAD6190E0A30C526E40 /* Pods-Tatsuflix.debug.xcconfig */,
-				C0794034A7708B02C57F14825906CBAA /* Pods-Tatsuflix.release.xcconfig */,
-			);
-			name = "Pods-Tatsuflix";
-			path = "Target Support Files/Pods-Tatsuflix";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -251,8 +199,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				57CE83037799B0E54C14ED0DAB124221 /* Pods */,
-				183D13AA114CEBC1211EC40B45E0195F /* Products */,
-				5AF73D10DD15E7F72D70319E13F2C7B0 /* Targets Support Files */,
+				06F036D8577349FF8A34F9DABF43680A /* Products */,
+				68E9B486D2FF372514E9B5DFEFF60D62 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -286,14 +234,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		144D81E1E43823188A39B642CCD80ECB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				59917C76867BA8ABBAD28F8A8AEA7D3E /* Pods-Tatsuflix-TatsuflixUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4FBED213C01416CA46A499BFAEF571CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,26 +272,6 @@
 			productReference = 95F48AF9D7906988366DD3C6C3975455 /* Pods-TatsuflixTests */;
 			productType = "com.apple.product-type.framework";
 		};
-		20AC318592A0D68B4227259F38F3C880 /* Pods-Tatsuflix-TatsuflixUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C4BFC77F926D95BDA1F23090C2DC48D5 /* Build configuration list for PBXNativeTarget "Pods-Tatsuflix-TatsuflixUITests" */;
-			buildPhases = (
-				144D81E1E43823188A39B642CCD80ECB /* Headers */,
-				7DFA3607A2B36388C1580D246064F577 /* Sources */,
-				018D4AC65F6606832066975F5E91F177 /* Frameworks */,
-				4189BE86B2245D872834FFE7C8CA9922 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8022C8A071EFF1AF1DD2FD18444173CA /* PBXTargetDependency */,
-				02F5EFDEA89632A53C4CD99FFF79E556 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tatsuflix-TatsuflixUITests";
-			productName = Pods_Tatsuflix_TatsuflixUITests;
-			productReference = 80207B6980503A715490F106F854F717 /* Pods-Tatsuflix-TatsuflixUITests */;
-			productType = "com.apple.product-type.framework";
-		};
 		D801610C14CD7A58D31A3892D1E53B09 /* Pods-Tatsuflix */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A574EAE315B7317E7EEB3C9C358F62 /* Build configuration list for PBXNativeTarget "Pods-Tatsuflix" */;
@@ -382,7 +302,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -390,12 +310,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 183D13AA114CEBC1211EC40B45E0195F /* Products */;
+			productRefGroup = 06F036D8577349FF8A34F9DABF43680A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D801610C14CD7A58D31A3892D1E53B09 /* Pods-Tatsuflix */,
-				20AC318592A0D68B4227259F38F3C880 /* Pods-Tatsuflix-TatsuflixUITests */,
 				14680B339762B2B9B0A362E13255826E /* Pods-TatsuflixTests */,
 				1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */,
 				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
@@ -405,13 +324,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		37519567E885BB5506FF0937543F7CA4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4189BE86B2245D872834FFE7C8CA9922 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -436,14 +348,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DFA3607A2B36388C1580D246064F577 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2725348CAD9658F8B9CC5FC25B863C4A /* Pods-Tatsuflix-TatsuflixUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AD57324A7833FB05C1FDCE99DF01B095 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -455,18 +359,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02F5EFDEA89632A53C4CD99FFF79E556 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftLint;
-			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = B2FBFDAD7725B74AC52DB6EC5A14D722 /* PBXContainerItemProxy */;
-		};
-		8022C8A071EFF1AF1DD2FD18444173CA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftGen;
-			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
-			targetProxy = 95860C057E2E9EE764202A199766CC94 /* PBXContainerItemProxy */;
-		};
 		9CB048851ED4D2004AC66452DBFC7F9F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftGen;
@@ -488,6 +380,43 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		08B0BC5C9A1C0FFA82F513346ACF7EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A17A11F02ED546CF1A26F5E7AD4EFD5 /* Pods-Tatsuflix.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tatsuflix/Pods-Tatsuflix-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tatsuflix/Pods-Tatsuflix.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2202230BF25CAB2FDC609A71D79055BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3DA6E6F2A1F5E119072913BFDF06794 /* SwiftGen.debug.xcconfig */;
@@ -504,9 +433,9 @@
 			};
 			name = Debug;
 		};
-		462B94F96BE0D7ADE8B912BA0D8CDED5 /* Release */ = {
+		80D77B3D8CBDCB8C78435BD57DFFA1E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC62739DD84A471C75E4465586988479 /* Pods-TatsuflixTests.release.xcconfig */;
+			baseConfigurationReference = B420D112DCB68D4BAF42DCE4226EDBB8 /* Pods-TatsuflixTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -520,121 +449,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TatsuflixTests/Pods-TatsuflixTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TatsuflixTests/Pods-TatsuflixTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		484D3CB036AD4F094AA5F8ECCFBB9552 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0794034A7708B02C57F14825906CBAA /* Pods-Tatsuflix.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tatsuflix/Pods-Tatsuflix-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tatsuflix/Pods-Tatsuflix.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		549E53EAED528956E9FB0F322C02782C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0169002FF1C6472B1723ADB498CE551 /* Pods-Tatsuflix-TatsuflixUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tatsuflix-TatsuflixUITests/Pods-Tatsuflix-TatsuflixUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tatsuflix-TatsuflixUITests/Pods-Tatsuflix-TatsuflixUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		861F786C4CCC54EFBA657850344CF4E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB4D0F5D38069F05CF1BB4FF51731E1 /* Pods-TatsuflixTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TatsuflixTests/Pods-TatsuflixTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -655,44 +470,7 @@
 			};
 			name = Debug;
 		};
-		8B2786DF10067009017E89F8831F2AF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B864F3B1A18BBBAD6190E0A30C526E40 /* Pods-Tatsuflix.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tatsuflix/Pods-Tatsuflix-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tatsuflix/Pods-Tatsuflix.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
+		A6046EC2625847907E13D89E5C077134 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -742,7 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -754,7 +532,133 @@
 			};
 			name = Release;
 		};
-		934ED2B84836A780113D1F63484628B2 /* Debug */ = {
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654A6C84F21020C373FDFA753A8BEF57 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA38E0B5156B7266C87D70C4EFFC7611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA810FF71B8CBE25C95FB5D678DF3C0D /* Pods-TatsuflixTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TatsuflixTests/Pods-TatsuflixTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TatsuflixTests/Pods-TatsuflixTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCCB92510E7478AA65EB1EBDE3F2EE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69ED6925DC5950190F0F48F3638B55A0 /* Pods-Tatsuflix.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Tatsuflix/Pods-Tatsuflix-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tatsuflix/Pods-Tatsuflix.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF3B4AB84D0F77E437676BAFB9C2086C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C00EB77C497573FF9D21FFD48AC279F /* SwiftGen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4F8F3FE262E6A67B23F824C11E398C /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F105DEC13C0AF4AD6927D5D40AF85A30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -807,7 +711,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -820,101 +724,14 @@
 			};
 			name = Debug;
 		};
-		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 654A6C84F21020C373FDFA753A8BEF57 /* SwiftLint.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CF3B4AB84D0F77E437676BAFB9C2086C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C00EB77C497573FF9D21FFD48AC279F /* SwiftGen.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B4F8F3FE262E6A67B23F824C11E398C /* SwiftLint.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F4035331B5316B340A1A5E8713274C04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06E265D388C181CE78EE53981A6AB8B8 /* Pods-Tatsuflix-TatsuflixUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Tatsuflix-TatsuflixUITests/Pods-Tatsuflix-TatsuflixUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Tatsuflix-TatsuflixUITests/Pods-Tatsuflix-TatsuflixUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				934ED2B84836A780113D1F63484628B2 /* Debug */,
-				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
+				F105DEC13C0AF4AD6927D5D40AF85A30 /* Debug */,
+				A6046EC2625847907E13D89E5C077134 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -922,8 +739,8 @@
 		7DC89BF547285EAFE1E810DCF8C2C43E /* Build configuration list for PBXNativeTarget "Pods-TatsuflixTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				861F786C4CCC54EFBA657850344CF4E8 /* Debug */,
-				462B94F96BE0D7ADE8B912BA0D8CDED5 /* Release */,
+				80D77B3D8CBDCB8C78435BD57DFFA1E0 /* Debug */,
+				BA38E0B5156B7266C87D70C4EFFC7611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -940,17 +757,8 @@
 		B0A574EAE315B7317E7EEB3C9C358F62 /* Build configuration list for PBXNativeTarget "Pods-Tatsuflix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B2786DF10067009017E89F8831F2AF4 /* Debug */,
-				484D3CB036AD4F094AA5F8ECCFBB9552 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C4BFC77F926D95BDA1F23090C2DC48D5 /* Build configuration list for PBXNativeTarget "Pods-Tatsuflix-TatsuflixUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4035331B5316B340A1A5E8713274C04 /* Debug */,
-				549E53EAED528956E9FB0F322C02782C /* Release */,
+				08B0BC5C9A1C0FFA82F513346ACF7EC5 /* Debug */,
+				BCCB92510E7478AA65EB1EBDE3F2EE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

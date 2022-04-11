@@ -1,0 +1,29 @@
+name: Tatsuflix
+options:
+  bundleIdPrefix: com.tatsunori
+  deploymentTarget:
+    iOS: 15.3
+targets:
+   Tatsuflix:
+    type: application
+    platform: iOS
+    sources:
+      - path: TatsuFlix
+    preBuildScripts:
+        - name: Swiftlint
+          script: swiftlint
+        - name: swiftgen
+          script: swiftgen
+    scheme:
+        testTargets:
+        - TatsuflixTests
+   TatsuflixTests:
+    type: bundle.unit-test
+    deploymentTarget:
+        iOS: 15.3
+    platform: iOS
+    #set the host applications for tests
+    dependencies:
+        - target: Tatsuflix
+    sources:
+        - path: TatsuflixTests

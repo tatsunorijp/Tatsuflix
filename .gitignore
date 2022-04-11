@@ -6,6 +6,11 @@ DerivedData/
 *.xcarchive
 .DS_Store
 
+## Ignore project files as we generate them with xcodegen
+*.xcodeproj
+*.xcworkspace
+*.pbxproj
+
 Pods/
 
 Tatsuflix/Generated/

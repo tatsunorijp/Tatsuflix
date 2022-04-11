@@ -15,8 +15,4 @@ target 'Tatsuflix' do
     # Pods for testing
   end
 
-  target 'TatsuflixUITests' do
-    # Pods for testing
-  end
-
 end

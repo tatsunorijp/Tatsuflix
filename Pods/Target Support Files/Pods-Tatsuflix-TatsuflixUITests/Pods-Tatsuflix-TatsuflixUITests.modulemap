@@ -1,6 +1,0 @@
-framework module Pods_Tatsuflix_TatsuflixUITests {
-  umbrella header "Pods-Tatsuflix-TatsuflixUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
