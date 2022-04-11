@@ -10,6 +10,7 @@ import Foundation
 final class UserDefaultsHelper {
     private enum Keys: String {
         case series = "favoritedSeries"
+        case faceId = "faceID"
     }
     
     private static let defaults = UserDefaults.standard
@@ -36,5 +37,13 @@ final class UserDefaultsHelper {
         
         let newSeriesList = seriesList.map { $0 != serieId }
         defaults.set([newSeriesList], forKey: Keys.series.rawValue)
+    }
+    
+    static func setAuthentication(value: Bool) {
+        defaults.set(value, forKey: Keys.faceId.rawValue)
+    }
+    
+    static func isAuthenticationEnabled() -> Bool {
+        defaults.bool(forKey: Keys.faceId.rawValue)
     }
 }

@@ -70,6 +70,19 @@ internal enum L10n {
       return L10n.tr("Localizable", "SerieView.Status", String(describing: p1))
     }
   }
+
+  internal enum Settings {
+    /// Authentication
+    internal static let authentication = L10n.tr("Localizable", "Settings.Authentication")
+    /// Created by
+    internal static let createdBy = L10n.tr("Localizable", "Settings.CreatedBy")
+    /// Wellington Tatsunori Asahide
+    internal static let me = L10n.tr("Localizable", "Settings.Me")
+    /// TatsuFlix
+    internal static let tatsuflix = L10n.tr("Localizable", "Settings.Tatsuflix")
+    /// Settings
+    internal static let title = L10n.tr("Localizable", "Settings.Title")
+  }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces

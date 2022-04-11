@@ -22,7 +22,7 @@ struct ContentView: View {
                 case .favorite:
                     FavoritedSeriesFactory().build()
                 case .configs:
-                    SettingsView()
+                    SettingsFactory().build()
                 }
             }
             

@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import Combine
 @testable import Tatsuflix
 
 final class HomeViewModelTests: XCTestCase {
@@ -14,6 +15,7 @@ final class HomeViewModelTests: XCTestCase {
         let viewModel = HomeViewModel(service: serviceSpy)
         return viewModel
     }()
+    private var cancellables: Set<AnyCancellable> = []
     
     func testGetSeries_whenSucceed_seriesShouldContainSeries() {
         serviceSpy.expectedResult = .success(SerieResponse.mock)
@@ -41,13 +43,40 @@ final class HomeViewModelTests: XCTestCase {
         ])
     }
     
-    func testGetSeries_WhenNotFoundError_SeriesIsFullShouldBeTrue() {
+    func testGetSeries_WhenFailure_ErrorShouldToggle() {
+        let expectation = XCTestExpectation(description: "State is set to populated")
+        
+        sut.$error.collect(2).sink { value in
+            XCTAssertEqual(value, [false, true])
+            expectation.fulfill()
+        }
+        .store(in: &cancellables)
+        
         serviceSpy.expectedResult = .failure(.notFound)
-        
-        XCTAssertFalse(sut.seriesIsFull)
-        
         sut.getSeries()
         
+        wait(for: [expectation], timeout: 0.1)
+    }
+    
+    func testGetSeries_IsLoadingShouldToggle() {
+        let expectation = XCTestExpectation(description: "State is set to populated")
+        
+        sut.$isLoading.collect(3).sink { value in
+            XCTAssertEqual(value, [false, true, false])
+            expectation.fulfill()
+        }
+        .store(in: &cancellables)
+        
+        serviceSpy.expectedResult = .failure(.notFound)
+        sut.getSeries()
+        
+        wait(for: [expectation], timeout: 0.1)
+    }
+    
+    func testGetSeries_WhenNotFoundError_SeriesIsFullShouldBeTrue() {
+        serviceSpy.expectedResult = .failure(.notFound)
+        XCTAssertFalse(sut.seriesIsFull)
+        sut.getSeries()
         XCTAssertTrue(sut.seriesIsFull)
     }
 }

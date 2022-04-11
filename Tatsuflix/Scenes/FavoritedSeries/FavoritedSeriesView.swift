@@ -12,8 +12,8 @@ struct FavoritedSeriesView: View {
     
     var body: some View {
         NavigationView {
-            List {
-                
+            VStack {
+                Text("In production")
             }
         }
     }

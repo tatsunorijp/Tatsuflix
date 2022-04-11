@@ -8,57 +8,10 @@
 import SwiftUI
 
 struct SearchSeriesView: View {
-//    @Environment(\.showTabBar) var showTabBar
     @StateObject var viewModel: SearchSeriesViewModel
     @State var searchQuery = ""
     
     var body: some View {
-        //        NavigationView {
-        //            VStack {
-        //                List {
-        //                    ForEach(viewModel.foundedSeries) { serie in
-        //                        NavigationLink(destination: SerieDetailsFactory().build(serie: serie)) {
-        //                            SerieView(serie: serie)
-        //                        }
-        //                        .listRowSeparator(.hidden)
-        //                    }
-        //                }
-        //                .listStyle(.plain)
-        //                .padding(.bottom, 32)
-        //            }
-        //            .searchable(text: $searchQuery, prompt: "Series")
-        //            .onSubmit(of: .search, {
-        //                viewModel.searchSeries(searchQuery: searchQuery)
-        //            })
-        //            .preferredColorScheme(.dark)
-        //            .navigationBarTitleDisplayMode(.large)
-        //            .navigationTitle("Search")
-        //        }
-        
-        //        NavigationView {
-        //            LoadingView(content: {
-        //                VStack {
-        //                    List {
-        //                        ForEach(viewModel.foundedSeries) { serie in
-        //                            NavigationLink(destination: SerieDetailsFactory().build(serie: serie)) {
-        //                                SerieView(serie: serie)
-        //                            }
-        //                            .listRowSeparator(.hidden)
-        //                        }
-        //                    }
-        //                    .listStyle(.plain)
-        //                    .padding(.bottom, 32)
-        //                }
-        //                .searchable(text: $searchQuery, prompt: "Series")
-        //                .onSubmit(of: .search, {
-        //                    viewModel.searchSeries(searchQuery: searchQuery)
-        //                })
-        //                .preferredColorScheme(.dark)
-        //                .navigationBarTitleDisplayMode(.large)
-        //                .navigationTitle("Search")
-        //            }, isLoading: $viewModel.isLoading)
-        //        }
-        
         BaseView(content: {
             NavigationView {
                 VStack {
@@ -85,7 +38,6 @@ struct SearchSeriesView: View {
                     isLoading: $viewModel.isLoading,
                     showGenericError: $viewModel.error
         )
-        .environment(\.showTabBar, false)
     }
 }
 

@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import Combine
 
 class SearchSeriesViewModel: ObservableObject {
+    private var cancellableBag = Set<AnyCancellable>()
+
     @Published var foundedSeries: [SerieResponse] = []
     @Published var isLoading = false
     @Published var error = false

@@ -55,11 +55,15 @@
 		0892271128038E0C005F08AB /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892271028038E0C005F08AB /* VisualEffectView.swift */; };
 		089227132803909C005F08AB /* ShowTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089227122803909C005F08AB /* ShowTabBar.swift */; };
 		089227162803A19F005F08AB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089227152803A19F005F08AB /* SettingsView.swift */; };
+		0892271A2803A2BA005F08AB /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089227192803A2BA005F08AB /* HexagonView.swift */; };
+		0892271C2803A2CF005F08AB /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892271B2803A2CF005F08AB /* BlobView.swift */; };
+		0892271E2803A6C1005F08AB /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0892271D2803A6C1005F08AB /* SettingsViewModel.swift */; };
+		089227242803AE80005F08AB /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089227232803AE80005F08AB /* AuthenticationView.swift */; };
+		089227262803B639005F08AB /* SettingsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089227252803B639005F08AB /* SettingsFactory.swift */; };
 		08CB07862801C01F005D054A /* TatsuflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07852801C01F005D054A /* TatsuflixApp.swift */; };
 		08CB07882801C01F005D054A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07872801C01F005D054A /* HomeView.swift */; };
 		08CB078A2801C023005D054A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CB07892801C023005D054A /* Assets.xcassets */; };
 		08CB078D2801C023005D054A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08CB078C2801C023005D054A /* Preview Assets.xcassets */; };
-		08CB07972801C024005D054A /* TatsuflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07962801C024005D054A /* TatsuflixTests.swift */; };
 		08CB07A12801C024005D054A /* TatsuflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07A02801C024005D054A /* TatsuflixUITests.swift */; };
 		08CB07A32801C024005D054A /* TatsuflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB07A22801C024005D054A /* TatsuflixUITestsLaunchTests.swift */; };
 		08E77C5A2801CE9E004E1F29 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E77C592801CE9E004E1F29 /* HomeViewModel.swift */; };
@@ -138,13 +142,17 @@
 		0892271028038E0C005F08AB /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
 		089227122803909C005F08AB /* ShowTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTabBar.swift; sourceTree = "<group>"; };
 		089227152803A19F005F08AB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		089227192803A2BA005F08AB /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		0892271B2803A2CF005F08AB /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
+		0892271D2803A6C1005F08AB /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		089227232803AE80005F08AB /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		089227252803B639005F08AB /* SettingsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFactory.swift; sourceTree = "<group>"; };
 		08CB07822801C01F005D054A /* Tatsuflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tatsuflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CB07852801C01F005D054A /* TatsuflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixApp.swift; sourceTree = "<group>"; };
 		08CB07872801C01F005D054A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		08CB07892801C023005D054A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08CB078C2801C023005D054A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08CB07922801C024005D054A /* TatsuflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatsuflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		08CB07962801C024005D054A /* TatsuflixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixTests.swift; sourceTree = "<group>"; };
 		08CB079C2801C024005D054A /* TatsuflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TatsuflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CB07A02801C024005D054A /* TatsuflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixUITests.swift; sourceTree = "<group>"; };
 		08CB07A22801C024005D054A /* TatsuflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TatsuflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -287,8 +295,9 @@
 				088AE83B280219A6004C5343 /* EpisodeView.swift */,
 				088AE8202801DEB0004C5343 /* SerieView.swift */,
 				088AE83528020C0A004C5343 /* HTMLStringView.swift */,
-				0892270E280382A3005F08AB /* BaseView.swift */,
 				0892271028038E0C005F08AB /* VisualEffectView.swift */,
+				089227192803A2BA005F08AB /* HexagonView.swift */,
+				0892270E280382A3005F08AB /* BaseView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -297,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				088AE8232801E277004C5343 /* Styles.swift */,
+				0892271B2803A2CF005F08AB /* BlobView.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -408,6 +418,8 @@
 			isa = PBXGroup;
 			children = (
 				089227152803A19F005F08AB /* SettingsView.swift */,
+				0892271D2803A6C1005F08AB /* SettingsViewModel.swift */,
+				089227252803B639005F08AB /* SettingsFactory.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -445,8 +457,9 @@
 				088AE84628027695004C5343 /* Extensions */,
 				0824BC9E2801C0F60035DDBA /* SupportFiles */,
 				0824BCA92801C31F0035DDBA /* Scenes */,
-				088AE85628029544004C5343 /* ContentView.swift */,
 				088AE81D2801DE57004C5343 /* Components */,
+				089227232803AE80005F08AB /* AuthenticationView.swift */,
+				088AE85628029544004C5343 /* ContentView.swift */,
 				08CB07852801C01F005D054A /* TatsuflixApp.swift */,
 				08CB078B2801C023005D054A /* Preview Content */,
 			);
@@ -465,7 +478,6 @@
 			isa = PBXGroup;
 			children = (
 				088AE85828029776004C5343 /* Scenes */,
-				08CB07962801C024005D054A /* TatsuflixTests.swift */,
 			);
 			path = TatsuflixTests;
 			sourceTree = "<group>";
@@ -788,24 +800,29 @@
 				08FC80DF280330ED00918C1F /* SerachSeriesViewModel.swift in Sources */,
 				088AE843280251E0004C5343 /* EpisodesListViewModel.swift in Sources */,
 				088AE8242801E277004C5343 /* Styles.swift in Sources */,
+				089227262803B639005F08AB /* SettingsFactory.swift in Sources */,
 				088AE841280251D4004C5343 /* EpisodesListFactory.swift in Sources */,
 				088AE8342801FD3C004C5343 /* SerieDetailsService.swift in Sources */,
 				088AE82E2801EC07004C5343 /* SerieDetailsView.swift in Sources */,
 				0892270928037B8E005F08AB /* FavoritedSeriesService.swift in Sources */,
 				0824BCA62801C2030035DDBA /* XCAssets+Generated.swift in Sources */,
+				089227242803AE80005F08AB /* AuthenticationView.swift in Sources */,
 				0892271128038E0C005F08AB /* VisualEffectView.swift in Sources */,
 				089227162803A19F005F08AB /* SettingsView.swift in Sources */,
 				08FC80E1280330F800918C1F /* SearchSeriesService.swift in Sources */,
 				088AE8532802940A004C5343 /* Tab.swift in Sources */,
 				0892270228036F38005F08AB /* UserDefaultsHelper.swift in Sources */,
 				088AE8322801FD2D004C5343 /* SerieDetailsViewModel.swift in Sources */,
+				0892271C2803A2CF005F08AB /* BlobView.swift in Sources */,
 				0824BCAE2801C3790035DDBA /* Service.swift in Sources */,
 				088AE855280294D5004C5343 /* TabPreferenceKey.swift in Sources */,
 				088AE84D280277EF004C5343 /* String+Extensions.swift in Sources */,
 				089226FD28036620005F08AB /* SearchSeriesResponse.swift in Sources */,
 				0824BCB22801C3C20035DDBA /* DataRequest.swift in Sources */,
+				0892271A2803A2BA005F08AB /* HexagonView.swift in Sources */,
 				08FC80E52803355D00918C1F /* SearchSeriesEndpoint.swift in Sources */,
 				0824BCB42801C3DE0035DDBA /* BaseURL.swift in Sources */,
+				0892271E2803A6C1005F08AB /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,7 +830,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08CB07972801C024005D054A /* TatsuflixTests.swift in Sources */,
 				088AE85B280297A4004C5343 /* HomeViewModelTests.swift in Sources */,
 				0892270028036B38005F08AB /* SearchSeriesTests.swift in Sources */,
 				088AE85E28029BA8004C5343 /* EpisodesListViewModelTests.swift in Sources */,
@@ -972,6 +988,7 @@
 				DEVELOPMENT_TEAM = DHFMA3M4H5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Local authentications required";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1004,6 +1021,7 @@
 				DEVELOPMENT_TEAM = DHFMA3M4H5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Local authentications required";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

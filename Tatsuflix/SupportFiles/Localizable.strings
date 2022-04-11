@@ -35,3 +35,10 @@
 // MARK: - SearchSeries
 "SearchSeries.Title" = "Search";
 "SearchSeries.SearchPlaceholder" = "Search Series";
+
+// MARK: - Settings
+"Settings.Title" = "Settings";
+"Settings.Tatsuflix" = "TatsuFlix";
+"Settings.CreatedBy" = "Created by";
+"Settings.Me" = "Wellington Tatsunori Asahide";
+"Settings.Authentication" = "Authentication";
